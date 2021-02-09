@@ -1,0 +1,82 @@
+section.stories-section {
+    margin: 20px 0 100px;
+}
+
+.col-lg-4 .stories-box {
+    padding: 0;
+    background-color: #fff;
+    padding-bottom: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .22);
+    position: relative;
+    margin-bottom: 2.875rem;
+    padding-bottom: 3.75rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.stories-box img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.education-content .internal-factsheet h3 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.stories-internal {
+    padding: 20px;
+    text-align: center;
+}
+
+.stories-internal h3 {
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin: 10px 0 20px;
+    font-size: 30px;
+}
+
+.stories-internal p {
+    font-size: 16px;
+    line-height: 28px;
+    min-height: 150px;
+}
+
+.stories-internal .btn {
+    background: #3a0e79;
+    border: 2px solid transparent;
+    color: #fff;
+    width: 80%;
+    position: absolute;
+    left: 35px;
+    bottom: 10px;
+}
+
+.stories-internal .btn:hover,
+.stories-internal .btn:focus {
+    border: 2px solid #3a0e79;
+    background: #fff;
+    color: #3a0e79;
+}
+
+@media (max-width: 768px) {
+    .stories-internal .btn {
+        left: 4rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .stories-internal .btn {
+        left: 3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .stories-internal .btn {
+        left: 35px;
+    }
+}

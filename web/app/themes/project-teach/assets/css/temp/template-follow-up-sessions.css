@@ -1,0 +1,198 @@
+#site-main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#site-main p,
+li {
+    font-family: 'Museo-sans', sans-serif;
+}
+
+.ptd {
+    padding: 0.25em 1em;
+    border-style: dashed;
+    border-color: #ccc;
+    border 1px solid;
+}
+
+#site-main ol,
+ul {
+    padding-left: 40px;
+}
+
+#site-main li {
+    margin-bottom: 8px;
+    font-weight: 16px;
+}
+
+.top-stats {
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+}
+
+.top-stats>div {
+    width: calc(100%/3);
+    text-align: center;
+    color: white;
+}
+
+.top-stats>div>p {
+    padding: 30px;
+}
+
+.top-stats>div>p:first-child {
+    color: white;
+    font-weight: bold;
+    font-size: 24px
+}
+
+.top-stats>div>p:last-child {
+    font-weight: bold;
+    font-size: 18px
+}
+
+.top-stats>div:nth-child(1)>p:first-child {
+    background-color: rgb(3, 159, 218);
+}
+
+.top-stats>div:nth-child(2)>p:first-child {
+    background-color: rgb(58, 14, 121);
+}
+
+.top-stats>div:nth-child(3)>p:first-child {
+    background-color: rgb(123, 191, 67);
+}
+
+.top-stats>div:nth-child(1)>p:last-child {
+    background-color: rgba(3, 159, 218, 0.15);
+}
+
+.top-stats>div:nth-child(2)>p:last-child {
+    background-color: rgba(58, 14, 121, 0.15);
+}
+
+.top-stats>div:nth-child(3)>p:last-child {
+    background-color: rgba(123, 191, 67, 0.15);
+}
+
+.schedule-block {
+    border: 5px solid rgb(58, 14, 121);
+    margin: 0 auto;
+}
+
+.schedule-block>div {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-wrapper {
+    width: 100%;
+    text-align: right;
+}
+
+.schedule-block .btn {
+    align-self: flex-end;
+}
+
+.schedule-block>div:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.btn {
+    color: #fff;
+    padding: 10px 27px;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: #039fda;
+    border: 2px solid #039fda;
+    transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    font-family: "museo-sans", sans-serif;
+    display: inline-block;
+    transition: all .5s;
+}
+
+.btn:hover {
+    opacity: .8;
+    color: white;
+}
+
+.btn:focus {
+    color: #fff;
+}
+
+p.small-print-title {
+    padding-bottom: 8px;
+    font-size: 18px;
+}
+
+p.small-print {
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+p.session-day {
+    font-size: 18px;
+    color: #ccc;
+    color: rgb(3, 159, 218, 0.5);
+    margin-bottom: 0;
+}
+
+p.session-date {
+    padding-bottom: 8px;
+    font-size: 24px;
+    color: #039fda;
+    text-transform: uppercase;
+}
+
+p.session-info {
+    color: #039fda;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.25;
+    padding-bottom: 5px;
+    transition: all .3s;
+}
+
+p.session-info:hover {
+    opacity: .8;
+}
+
+p.session-speaker {
+    padding-bottom: 0;
+}
+
+.session-time-box {
+    padding-right: 20px;
+    border-right: 1px solid #efefef;
+    max-height: 60px;
+    text-align: center;
+}
+
+.session-info-box {
+    padding-left: 20px;
+    flex: 1;
+}
+
+.schedule-block>div:nth-child(even) p.session-day {
+    color: rgba(58, 14, 121, 0.5);
+}
+
+.schedule-block>div:nth-child(even) p.session-date,
+.schedule-block>div:nth-child(even) p.session-info {
+    color: rgba(58, 14, 121, 1);
+}
+
+.schedule-block>div:nth-child(even) .btn {
+    background-color: rgba(58, 14, 121, 1);
+    border: 2px solid rgba(58, 14, 121, 1);
+}
+
+.schedule-block>div:nth-child(even) .session-time-box {
+    border-right: 1px solid #dedede;
+}

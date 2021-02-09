@@ -1,0 +1,110 @@
+<!-- {{all-data}} -->
+<style>
+    .course-row {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .course-main {
+		display:flex;
+		flex-wrap:wrap;
+    }
+    .course-main-details {
+	    flex:1;
+    }
+    .course-image {
+        height:400px;
+        width:400px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .page-template-course-detail .cme-info-block {
+        text-align:left;
+    }
+</style>
+<div class="item-detail" >
+	<div class="" style="text-align:left;margin-left:30px;">
+		<div class="container">
+        	<div class="row course-row">
+            	<div class="col-sm-12 col-lg-9 course-main">
+                	<div class="course-main-details">
+                    	<h2 style="min-height:30px">{{title}}</h2>
+			        	<p>
+                        	<span style="font-weight:bold">Dates:</span>
+                        	<span>{{start-date}} - ongoing</span>
+                    	</p>
+                    	<!-- <p>
+                        	<span style="font-weight:bold">End Date:</span>
+                        	<span>{{end-date}}</span>
+                    	</p> -->
+                    	<p>
+                        	<span style="font-weight:bold">Number of Credits:</span>
+                        	<span>{{number-of-credits}}</span>
+                    	</p>
+                	</div>
+                	<div class="course-image-wrapper">
+                    	<div style="background-image:url({{thumbnail}});" class="course-image"></div>
+                	</div>    
+            	</div>
+            	<div class="col-sm-12 col-lg-9 course-main">
+                	<div class="description">
+                    	<h4>Description</h4>
+                    	<p>{{description}}</p>
+                	</div>
+				</div>
+				<div class="col-sm-12 col-lg-9 course-main">
+					<div class="faculty-detail">
+						<h4>Faculty</h4>
+						<span style="">{{faculty-1ist}}</span>
+					</div>
+				</div>
+				<div class="col-sm-12 col-lg-9 course-main">
+					<div class="btn-cover register">
+						<a href="{{register-url}}" title="Register" class="btn">Register Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="foo"><br /></div>
+
+		<div class="learning-objectives-detail">
+			<h4>Learning Objectives</h4>
+			<p>{{learning-objectives-intro}}</p>
+			{{learning-objective-1ist}}
+		</div>
+
+		<div class="foo"><br /></div>
+
+		<div class="target-audience2-detail">
+			<h4>Target Audience</h4>
+			<p>{{target-audiences-intro}}</p>
+			{{target-audience-list}}
+		</div>
+
+		<div class="foo"><br /></div>
+
+		<div class="cme-info-detail">
+			{{cme-info-list}}
+		</div> -->
+
+		<div class="cme-info-inner cf">
+			<div class="cme-info-block">
+				<h4>Learning Objectives</h4>
+				<p>{{learning-objectives-intro}}</p>
+				{{learning-objective-1ist}}
+			</div>
+			<div class="cme-info-block">
+				<h4>Target Audience</h4>
+				<p>{{target-audiences-intro}}</p>
+				{{target-audience-list}}
+			</div>
+			{{accreditations}}
+		</div>
+
+    	<div class="btn-cover back">
+			<a href="/training/online-courses/" title="Return to Catalog" class="btn">Return to Catalog</a>
+		</div>
+
+	</div>
+</div>

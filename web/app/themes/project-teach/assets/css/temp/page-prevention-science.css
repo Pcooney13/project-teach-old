@@ -1,0 +1,47 @@
+.forum-takeaways {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 100px 0 60px;
+}
+
+.forum-takeaways h4 {
+    font-size: 28px;
+    font-weight: 900;
+    color: #7BBF43;
+}
+
+.forum-takeaways .btn {
+    margin-top: 30px;
+    background-color: #7BBF43;
+    border: 3px solid #7BBF43;
+    color: white;
+}
+
+.forum-takeaways .btn:hover {
+    color: #7BBF43;
+    background-color: white;
+}
+
+.annual-btns {
+    display: flex;
+    margin: 0 auto;
+    max-width: 900px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.annual-btns .btn {
+    margin: 0 30px;
+    width: 50%;
+}
+
+@media (max-width:700px) {
+    .annual-btns {
+        flex-direction: column;
+    }
+
+    .annual-btns .btn {
+        margin: 15px;
+        width: auto;
+    }
+}

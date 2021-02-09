@@ -1,0 +1,14 @@
+{
+    "name": "root/ethos",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Steven Cano",
+            "email": "steven@launchpad.co"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.5",
+        "stefangabos/zebra_curl": "^1.4"
+    }
+}

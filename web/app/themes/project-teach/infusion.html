@@ -1,0 +1,534 @@
+<style type="text/css">
+.beta-base .preheader, .beta-base .header, .beta-base .sidebar, .beta-base .body, .beta-base .footer, #mainContent {
+  text-align: start;
+}
+.beta-base .preheader, .beta-base .header, .beta-base .body, .beta-base .sidebar, .beta-base .leftSidebar, .beta-base .rightSidebar, .beta-base .footer {
+  margin: 0;
+  padding: 0;
+  border: none;
+  white-space: normal;
+  line-height: normal;
+}
+.beta-base .title, .beta-base .subtitle, .beta-base .text, .beta-base img {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  white-space: normal;
+  line-height: normal;
+}
+.beta-base .bodyContainer td.preheader{
+  padding: 10px 0;
+}
+.beta-base .bodyContainer td.header {
+  padding: 0;
+  height: 30px;
+}
+.beta-base .bodyContainer td.body, .beta-base .bodyContainer td.footer, .beta-base .bodyContainer td.sidebar, .beta-base .bodyContainer td.leftSidebar, .beta-base .bodyContainer td.rightSidebar {
+  padding: 20px;
+}
+.beta-base .bodyContainer td.header p, .beta-base .bodyContainer td.preheader p, .beta-base .bodyContainer td.body p, .beta-base .bodyContainer td.footer p, .beta-base .bodyContainer td.sidebar p, .beta-base .bodyContainer td.leftSidebar p, .beta-base .bodyContainer td.rightSidebar p {
+  margin: 0;
+  color: inherit;
+}
+.beta-base .bodyContainer td.header div.title, .beta-base .bodyContainer td.preheader div.title, .beta-base .bodyContainer td.body div.title,
+.beta-base .bodyContainer td.footer div.title, .beta-base .bodyContainer td.sidebar div.title,
+.beta-base .bodyContainer td.leftSidebar div.title, .beta-base .bodyContainer td.rightSidebar div.title,
+.beta-base .bodyContainer td.header div.subtitle, .beta-base .bodyContainer td.preheader div.subtitle, .beta-base .bodyContainer td.body div.subtitle,
+.beta-base .bodyContainer td.footer div.subtitle, .beta-base .bodyContainer td.sidebar div.subtitle,
+.beta-base .bodyContainer td.leftSidebar div.subtitle, .beta-base .bodyContainer td.rightSidebar div.subtitle,
+.beta-base .bodyContainer td.header div.text, .beta-base .bodyContainer td.preheader div.text, .beta-base .bodyContainer td.body div.text, .beta-base .bodyContainer td.body div.text div,
+.beta-base .bodyContainer td.footer div.text, .beta-base .bodyContainer td.sidebar div.text,
+.beta-base .bodyContainer td.leftSidebar div.text, .beta-base .bodyContainer td.rightSidebar div.text {
+  overflow: auto;
+}
+.beta-base .optout {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+div.infusion-captcha {
+  width: 220px;
+  padding: 10px;
+}
+div.infusion-captcha input, div.infusion-captcha select, div.infusion-captcha textarea {
+  width: 95%;
+  display: inline-block;
+  vertical-align: middle;
+}
+table.infusion-field-container td.infusion-field-input-container input[type='text'],
+table.infusion-field-container td.infusion-field-input-container input[type='password'],
+table.infusion-field-container td.infusion-field-input-container textarea {
+  width: 98%; /* must be 98% to make the snippet-menu line up due to border width */
+  margin: 0;
+}
+table.infusion-field-container td.infusion-field-input-container select {
+  width: 101%;
+  *width: 102%; /* this one for IE */
+  margin: 0;
+}
+table.infusion-field-container td.infusion-field-label-container {
+  padding-right: 5px;
+  max-width: 200px;
+}
+td.header .image-snippet img {
+  vertical-align: bottom;
+}
+#webformErrors {
+  color: #990000;
+  font-size: 14px;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.infusion-form {
+  margin: 0;
+  height: 100%;
+}
+.infusion-option {
+  display: block;
+  text-align: left;
+}
+</style>
+<style type="text/css">
+.beta-font-b h1, .beta-font-b h2, .beta-font-b h3, .beta-font-b h4, .beta-font-b h5, .beta-font-b h6 {
+  font-family: arial,sans-serif;
+}
+.beta-font-b h1 {font-size: 24px;}
+.beta-font-b h2 {font-size: 20px;}
+.beta-font-b h3 {font-size: 14px;}
+.beta-font-b h4 {font-size: 12px;}
+.beta-font-b h5 {font-size: 10px;}
+.beta-font-b h6 {font-size: 8px;}
+.beta-font-b address {font-style: italic;}
+.beta-font-b pre {font-family: Courier New, monospace;}
+.beta-font-b .title, .beta-font-b .title p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: arial,sans-serif;
+}
+.beta-font-b .subtitle, .beta-font-b .subtitle p {
+  font-size: 11px;
+  font-weight: normal;
+  font-family: arial,sans-serif;
+}
+.beta-font-b .text, .beta-font-b p {
+  font-size: 12px;
+  font-family: arial,sans-serif;
+}
+.beta-font-b .preheader .text, .beta-font-b .preheader .text p {
+  font-size: 11px;
+  font-family: arial,sans-serif;
+}
+.beta-font-b .footer a {
+  font-size: 11px;
+  font-family: arial,sans-serif;
+}
+.beta-font-b .footer .text {
+  font-size: 10px;
+  font-family: verdana,sans-serif;
+}
+.beta-font-b .sidebar .title, .beta-font-b .leftSidebar .title, .beta-font-b .rightSidebar .title {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: arial,sans-serif;
+}
+.beta-font-b .sidebar .subtitle, .beta-font-b .leftSidebar .subtitle, .beta-font-b .rightSidebar .subtitle {
+  font-size: 12px;
+  font-family: arial, sans-serif;
+}
+.beta-font-b .sidebar .text, .beta-font-b .sidebar .text p, .beta-font-b .leftSidebar .text, .beta-font-b .rightSidebar .text {
+  font-size: 11px;
+  font-family: arial, sans-serif;
+}
+.infusion-field-label-container {
+  font-size: 14px;
+  font-family: arial,sans-serif;
+}
+.infusion-field-input-container {
+  color: #000000;
+  font-size: 12px;
+}
+.infusion-option label {
+  color: #000000;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+}
+</style>
+<style type="text/css">
+.default .background {
+  background-color: #ffffff;
+}
+.default .title {
+  color: #000000;
+}
+.default .subtitle {
+  color: #000000;
+}
+.default .text {
+  color: #000000;
+}
+.default a {
+  color:#0645ad;
+}
+.default .background .preheader .text {
+  color: #1a242e;
+}
+.default .background .preheader a {
+  color: #0645ad;
+}
+.default .header {
+  background-color: #ffffff;
+}
+.default .header .title {
+  color:#000000;
+}
+.default .header .subtitle {
+  color: #000000;
+}
+.default .header .text {
+  color: #000000;
+}
+.default .header .a {
+  color: #157DB8;
+}
+.default .hero {
+  background-color: #025C8D;
+}
+.default .hero .title {
+  color: #FFFFFF;
+}
+.default .hero .subtitle {
+  color: #FFFFFF;
+}
+.default .hero .text {
+  color: #FFFFFF;
+}
+.default .hero .a {
+  color: #157DB8;
+}
+.default .quote {
+  background-color: #013B5A;
+}
+.default .quote:after {
+  border-color: #013B5A transparent transparent transparent;
+}
+.default .quote .title {
+  color: #FFFFFF;
+}
+.default .quote .subtitle {
+  color:#FFFFFF;
+}
+.default .quote .text {
+  color:#FFFFFF;
+}
+.default .quote .a {
+  color: #157DB8;
+}
+.default .body {
+  background-color: #ffffff;
+}
+.default .main {
+  background-color: #FFFFFF;
+}
+.default .main .title {
+  color: #000000;
+}
+.default .main .subtitle {
+  color: #000000;
+}
+.default .main .text {
+  color: #000000;
+}
+.default .main .a {
+  color: #157DB8;
+}
+.default .sidebar {
+  background-color: #ffffff;
+}
+.default .sidebar .title {
+  color: #000000;
+}
+.default .sidebar .subtitle {
+  color: #000000;
+}
+.default .sidebar .text {
+  color: #000000;
+}
+.default .sidebar .a {
+  color: #157DB8;
+}
+.default .leftSidebar {
+  background-color: #ffffff;
+}
+.default .leftSidebar .title {
+  color: #f15c25;
+}
+.default .leftSidebar .subtitle {
+  color: #669940;
+}
+.default .rightSidebar {
+  background-color: #ffffff;
+}
+.default .rightSidebar .title {
+  color: #f15c25;
+}
+.default .rightSidebar .subtitle {
+  color: #669940;
+}
+.default .footer {
+  background-color: #ffffff;
+}
+.default .footer .text {
+  color: #0d0d0d;
+}
+.default .footer .title {
+  color: #000000;
+}
+.default .footer a {
+  color: #1b3bde;
+}
+.default .footer .subtitle {
+  color: #000000;
+}
+.default .infusion-field-label-container {
+  font-size: 14px;
+}
+.default .infusion-field-label-container {
+  font-family: Arial;
+}
+.default .infusion-field-label-container {
+  color: #000000;
+}
+.default .infusion-field-input {
+  font-size: 14px;
+}
+.default .infusion-option label {
+  font-size: 14px;
+}
+.default .infusion-option label {
+  font-family: Arial;
+}
+.default .infusion-option label {
+  color: #000000;
+}
+.default .webFormBodyContainer {
+  border-width: 0px;
+}
+.default .webFormBodyContainer {
+  border-style: Hidden;
+}
+.default .webFormBodyContainer {
+  border-color: #000000;
+}
+</style>
+<style type="text/css">
+.infusion-field-label-container {
+  text-align: Left;
+}
+.infusion-field-input-container {
+  width: 200px;
+}
+.infusion-field-label-container {
+  vertical-align: Middle;
+}
+.bodyContainer {
+  width: 425px;
+}
+.infusion-field-label-container label,
+.infusion-option label {
+  font-family: 'museo-sans-condensed', sans-serif;
+  font-size: 12pt;
+}
+.default .infusion-option label,
+.default .infusion-field-input {
+  font-family: 'museo-sans-condensed', sans-serif!important;
+}
+.infusion-form {
+  background: #039fda url(http://projectteachny.org/wp-content/uploads/2017/09/project-teach-bg.png);
+}
+</style><script src="https://ez372.infusionsoft.com/app/webTracking/getTrackingCode?b=1.70.0.60815" type="text/javascript">
+</script><script src="https://ez372.infusionsoft.com/resources/external/recaptcha/production/recaptcha.js?b=1.70.0.60815" type="text/javascript">
+</script><script async="async" defer="defer" src="https://www.google.com/recaptcha/api.js?onload=onloadInfusionRecaptchaCallback&render=explicit" type="text/javascript">
+</script><link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.5.1/css/pikaday.min.css" rel="stylesheet" type="text/css" />
+  <div class="text" id="webformErrors" name="errorContent"> 
+  </div> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.0/moment.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.5.1/pikaday.min.js" type="text/javascript"></script>
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'hyv7nlq',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+  <form accept-charset="UTF-8" action="https://ez372.infusionsoft.com/app/form/process/664a07cbc3a93990f366c64b7e3b576c" class="infusion-form" id="inf_form_664a07cbc3a93990f366c64b7e3b576c" method="POST" name="Online Services Request Form" onsubmit="var form = document.forms[0];
+var resolution = document.createElement('input');
+resolution.setAttribute('id', 'screenResolution');
+resolution.setAttribute('type', 'hidden');
+resolution.setAttribute('name', 'screenResolution');
+var resolutionString = screen.width + 'x' + screen.height;
+resolution.setAttribute('value', resolutionString);
+form.appendChild(resolution);
+var pluginString = '';
+if (window.ActiveXObject) {
+    var activeXNames = {'AcroPDF.PDF':'Adobe Reader',
+        'ShockwaveFlash.ShockwaveFlash':'Flash',
+        'QuickTime.QuickTime':'Quick Time',
+        'SWCtl':'Shockwave',
+        'WMPLayer.OCX':'Windows Media Player',
+        'AgControl.AgControl':'Silverlight'};
+    var plugin = null;
+    for (var activeKey in activeXNames) {
+        try {
+            plugin = null;
+            plugin = new ActiveXObject(activeKey);
+        } catch (e) {
+            // do nothing, the plugin is not installed
+        }
+        pluginString += activeXNames[activeKey] + ',';
+    }
+    var realPlayerNames = ['rmockx.RealPlayer G2 Control',
+        'rmocx.RealPlayer G2 Control.1',
+        'RealPlayer.RealPlayer(tm) ActiveX Control (32-bit)',
+        'RealVideo.RealVideo(tm) ActiveX Control (32-bit)',
+        'RealPlayer'];
+    for (var index = 0; index &lt; realPlayerNames.length; index++) {
+        try {
+            plugin = new ActiveXObject(realPlayerNames[index]);
+        } catch (e) {
+            continue;
+        }
+        if (plugin) {
+            break;
+        }
+    }
+    if (plugin) {
+        pluginString += 'RealPlayer,';
+    }
+} else {
+    for (var i = 0; i &lt; navigator.plugins.length; i++) {
+        pluginString += navigator.plugins[i].name + ',';
+    }
+}
+pluginString = pluginString.substring(0, pluginString.lastIndexOf(','));
+var plugins = document.createElement('input');
+plugins.setAttribute('id', 'pluginList');
+plugins.setAttribute('type', 'hidden');
+plugins.setAttribute('name', 'pluginList');
+plugins.setAttribute('value', pluginString);
+form.appendChild(plugins);
+var java = navigator.javaEnabled();
+var javaEnabled = document.createElement('input');
+javaEnabled.setAttribute('id', 'javaEnabled');
+javaEnabled.setAttribute('type', 'hidden');
+javaEnabled.setAttribute('name', 'javaEnabled');
+javaEnabled.setAttribute('value', java);
+form.appendChild(javaEnabled);"> 
+   <input name="inf_form_xid" type="hidden" value="664a07cbc3a93990f366c64b7e3b576c" />
+   <input name="inf_form_name" type="hidden" value="Online Services Request Form" />
+   <input name="infusionsoft_version" type="hidden" value="1.70.0.60815" /> 
+   <div class="default beta-base beta-font-b" id="mainContent" style="height:100%"> 
+    <table cellpadding="10" cellspacing="0" class="background" style="width: 100%; height: 100%;background: #039fda url(http://projectteachny.org/wp-content/uploads/2017/09/project-teach-bg.png);"><tbody><tr><td align="center" valign="top"> 
+        <table bgcolor="#FFFFFF" cellpadding="20" cellspacing="0" class="bodyContainer webFormBodyContainer" width="100%"><tbody><tr><td bgcolor="#FFFFFF" class="body" sectionid="body" valign="top"> 
+            <div> 
+             <div> 
+              <div class="title" style="text-align:left"> 
+               <div class="title" contentid="title" style="text-align: center;"> 
+                <div> 
+                 <span style="font-size: 27pt;font-weight:900;margin:0;line-height:3rem;letter-spacing:1px;font-family:'museo-sans',sans-serif;">Project TEACH Signup Form</span>
+                 <p> &nbsp; </p> 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+            <div> 
+             <div style="height:20px; line-height:20px;">
+               &nbsp; 
+             </div> 
+            </div> 
+            <div> 
+             <table class="infusion-field-container" style="width:100%;"><tbody><tr><td class="infusion-field-label-container"> <label for="inf_field_FirstName">First Name *</label> </td><td class="infusion-field-input-container" style="width:200px;"> <input class="infusion-field-input" id="inf_field_FirstName" name="inf_field_FirstName" placeholder="First Name *" type="text" /> </td></tr><tr><td class="infusion-field-label-container"> <label for="inf_field_LastName">Last Name *</label> </td><td class="infusion-field-input-container" style="width:200px;"> <input class="infusion-field-input" id="inf_field_LastName" name="inf_field_LastName" placeholder="Last Name *" type="text" /> </td></tr></tbody></table> 
+            </div> 
+            <div> 
+             <table class="infusion-field-container" style="width:100%;"><tbody><tr><td class="infusion-field-label-container"> <label for="inf_custom_Practice">Practice/Organization *</label> </td><td class="infusion-field-input-container" style="width:200px;"> <input class="infusion-field-input" id="inf_custom_Practice" name="inf_custom_Practice" placeholder="Practice/Organization *" type="text" /> </td></tr></tbody></table> 
+            </div> 
+            <div> 
+             <table class="infusion-field-container" style="width:100%;"><tbody><tr><td class="infusion-field-label-container"> <label for="inf_custom_Practicetype">Practice type</label> </td><td class="infusion-field-input-container" style="width:200px;"> 
+                 <div class="infusion-radio"> 
+                  <div class="options-container"> 
+                   <span class="infusion-option"><input id="inf_custom_Practicetype_Family Practice" name="inf_custom_Practicetype" style="margin-right:3px;" type="radio" value="Family Practice" /><label for="inf_custom_Practicetype_Family Practice">Family Practice</label></span>
+                   <span class="infusion-option"><input id="inf_custom_Practicetype_Pediatrics" name="inf_custom_Practicetype" style="margin-right:3px;" type="radio" value="Pediatrics" /><label for="inf_custom_Practicetype_Pediatrics">Pediatrics</label></span>
+                   <span class="infusion-option"><input id="inf_custom_Practicetype_Psychiatry" name="inf_custom_Practicetype" style="margin-right:3px;" type="radio" value="Psychiatry" /><label for="inf_custom_Practicetype_Psychiatry">Psychiatry</label></span>
+                   <span class="infusion-option"><input id="inf_custom_Practicetype_Other" name="inf_custom_Practicetype" style="margin-right:3px;" type="radio" value="Other" /><label for="inf_custom_Practicetype_Other">Other</label></span> 
+                  </div> 
+                 </div> </td></tr></tbody></table> 
+            </div> 
+            <div> 
+             <table class="infusion-field-container" style="width:100%;"><tbody><tr><td class="infusion-field-label-container"> <label for="inf_custom_Title0">Profession *</label> </td><td class="infusion-field-input-container" style="width:200px;"> 
+                 <div class="infusion-radio"> 
+                  <div class="options-container"> 
+                   <span class="infusion-option"><input id="inf_custom_Title0_Pediatrician" name="inf_custom_Title0" style="margin-right:3px;" type="radio" value="Pediatrician" /><label for="inf_custom_Title0_Pediatrician">Pediatrician</label></span>
+                   <span class="infusion-option"><input id="inf_custom_Title0_Family Practice Physician" name="inf_custom_Title0" style="margin-right:3px;" type="radio" value="Family Practice Physician" /><label for="inf_custom_Title0_Family Practice Physician">Family Practice Physician</label></span>
+                   <span class="infusion-option"><input id="inf_custom_Title0_Child & Adolescent Psychiatrist" name="inf_custom_Title0" style="margin-right:3px;" type="radio" value="Child & Adolescent Psychiatrist" /><label for="inf_custom_Title0_Child & Adolescent Psychiatrist">Child & Adolescent Psychiatrist</label></span>
+                   <span class="infusion-option"><input id="inf_custom_Title0_Adult Psychiatrist" name="inf_custom_Title0" style="margin-right:3px;" type="radio" value="Adult Psychiatrist" /><label for="inf_custom_Title0_Adult Psychiatrist">Adult Psychiatrist</label></span>
+                   <span class="infusion-option"><input id="inf_custom_Title0_Physician Assistant" name="inf_custom_Title0" style="margin-right:3px;" type="radio" value="Physician Assistant" /><label for="inf_custom_Title0_Physician Assistant">Physician Assistant</label></span>
+                   <span class="infusion-option"><input id="inf_custom_Title0_Nurse Practitioner" name="inf_custom_Title0" style="margin-right:3px;" type="radio" value="Nurse Practitioner" /><label for="inf_custom_Title0_Nurse Practitioner">Nurse Practitioner</label></span>
+                   <span class="infusion-option"><input id="inf_custom_Title0_Other" name="inf_custom_Title0" style="margin-right:3px;" type="radio" value="Other" /><label for="inf_custom_Title0_Other">Other</label></span> 
+                  </div> 
+                 </div> </td></tr></tbody></table> 
+            </div> 
+            <div> 
+             <table class="infusion-field-container" style="width:100%;"><tbody><tr><td class="infusion-field-label-container"> <label for="inf_field_StreetAddress1">Practice Address *</label> </td><td class="infusion-field-input-container" style="width:200px;"> <input class="infusion-field-input" id="inf_field_StreetAddress1" name="inf_field_StreetAddress1" placeholder="Practice Address *" type="text" /> </td></tr><tr><td class="infusion-field-label-container"> <label for="inf_field_City">City *</label> </td><td class="infusion-field-input-container" style="width:200px;"> <input class="infusion-field-input" id="inf_field_City" name="inf_field_City" placeholder="City *" type="text" /> </td></tr><tr><td class="infusion-field-label-container"> <label for="inf_field_State">State *</label> </td><td class="infusion-field-input-container" style="width:200px;"> <input class="infusion-field-input" id="inf_field_State" name="inf_field_State" placeholder="State *" type="text" /> </td></tr><tr><td class="infusion-field-label-container"> <label for="inf_field_ZipFour1">Zip Code</label> </td><td class="infusion-field-input-container" style="width:200px;"> <input class="infusion-field-input" id="inf_field_ZipFour1" name="inf_field_ZipFour1" placeholder="Zip Code" type="text" /> </td></tr></tbody></table> 
+            </div> 
+            <div> 
+             <table class="infusion-field-container" style="width:100%;"><tbody><tr><td class="infusion-field-label-container"> <label for="inf_custom_County">County *</label> </td><td class="infusion-field-input-container" style="width:200px;"> 
+                 <div class="infusion-field-input-container"> 
+                  <select id="inf_custom_County" name="inf_custom_County"><option value="">Please select one</option><option value="Albany County">Albany County</option><option value="Allegany County">Allegany County</option><option value="Bronx County">Bronx County</option><option value="Broome County">Broome County</option><option value="Cattaraugus County">Cattaraugus County</option><option value="Cayuga County">Cayuga County</option><option value="Chautauqua County">Chautauqua County</option><option value="Chemung County">Chemung County</option><option value="Chenango County">Chenango County</option><option value="Clinton County">Clinton County</option><option value="Columbia County">Columbia County</option><option value="Cortland County">Cortland County</option><option value="Delaware County">Delaware County</option><option value="Dutchess County">Dutchess County</option><option value="Erie County">Erie County</option><option value="Essex County">Essex County</option><option value="Franklin County">Franklin County</option><option value="Fulton County">Fulton County</option><option value="Genesee County">Genesee County</option><option value="Greene County">Greene County</option><option value="Hamilton County">Hamilton County</option><option value="Herkimer County">Herkimer County</option><option value="Jefferson County">Jefferson County</option><option value="Kings County (Brooklyn)">Kings County (Brooklyn)</option><option value="Lewis County">Lewis County</option><option value="Livingston County">Livingston County</option><option value="Madison County">Madison County</option><option value="Monroe County">Monroe County</option><option value="Montgomery County">Montgomery County</option><option value="Nassau County">Nassau County</option><option value="New York County (Manhattan)">New York County (Manhattan)</option><option value="Niagara County">Niagara County</option><option value="Oneida County">Oneida County</option><option value="Onondaga County">Onondaga County</option><option value="Ontario County">Ontario County</option><option value="Orange County">Orange County</option><option value="Orleans County">Orleans County</option><option value="Oswego County">Oswego County</option><option value="Otsego County">Otsego County</option><option value="Putnam County">Putnam County</option><option value="Queens County">Queens County</option><option value="Rensselaer County">Rensselaer County</option><option value="Richmond County (Staten Island)">Richmond County (Staten Island)</option><option value="Rockland County">Rockland County</option><option value="Saint Lawrence County">Saint Lawrence County</option><option value="Saratoga County">Saratoga County</option><option value="Schenectady County">Schenectady County</option><option value="Schoharie County">Schoharie County</option><option value="Schuyler County">Schuyler County</option><option value="Seneca County">Seneca County</option><option value="Steuben County">Steuben County</option><option value="Suffolk County">Suffolk County</option><option value="Sullivan County">Sullivan County</option><option value="Tioga County">Tioga County</option><option value="Tompkins County">Tompkins County</option><option value="Ulster County">Ulster County</option><option value="Warren County">Warren County</option><option value="Washington County">Washington County</option><option value="Wayne County">Wayne County</option><option value="Westchester County">Westchester County</option><option value="Wyoming County">Wyoming County</option><option value="Yates County">Yates County</option></select> 
+                 </div> </td></tr></tbody></table> 
+            </div> 
+            <div> 
+             <table class="infusion-field-container" style="width:100%;"><tbody><tr><td class="infusion-field-label-container"> <label for="inf_field_Email">Email *</label> </td><td class="infusion-field-input-container" style="width:200px;"> <input class="infusion-field-input" id="inf_field_Email" name="inf_field_Email" placeholder="Email *" type="text" /> </td></tr></tbody></table> 
+            </div> 
+            <div> 
+             <table class="infusion-field-container" style="width:100%;"><tbody><tr><td class="infusion-field-label-container"> <label for="inf_field_Phone1">Phone *</label> </td><td class="infusion-field-input-container" style="width:200px;"> <input class="infusion-field-input" id="inf_field_Phone1" name="inf_field_Phone1" placeholder="Phone  *" type="text" /> </td></tr></tbody></table> 
+            </div> 
+            <div> 
+             <table class="infusion-field-container" style="width:100%;"><tbody><tr><td class="infusion-field-label-container"> <label for="inf_custom_Fax">Fax</label> </td><td class="infusion-field-input-container" style="width:200px;"> <input class="infusion-field-input" id="inf_custom_Fax" name="inf_custom_Fax" placeholder="Fax" type="text" /> </td></tr></tbody></table> 
+            </div> 
+            <div> 
+             <table class="infusion-field-container" style="width:100%;"><tbody><tr><td class="infusion-field-label-container"> <label for="inf_custom_Date">Date *</label> </td><td class="infusion-field-input-container" style="width:200px;"> 
+                 <div class="infusion-calendar-wrapper" style="display: flex"> 
+                  <script>Infusion.depends(['Component.Calendar']);</script>
+                  <input class="infusion-field-input-container infusion-date-input" id="inf_custom_Date" name="inf_custom_Date" onkeydown="if(pressDate){return pressDate(event,this,false)}" placeholder="Date *" size="10px" style="display: table-cell;" type="text" /> 
+                  <div class="calendar-picker-container" style="padding-left:10px; position:relative;"> 
+                   <div class="cal-popup" data-locale="us" onclick="Infusion.Component.Calendar.showPopUp({calName:'inf_custom_Date_cal', textFieldName:'inf_custom_Date', locale:'us',elem: this });"> 
+                    <svg height="24" id="inf_custom_Date_img" viewbox="0 0 28 28" width="24"> 
+                     <path d="M7 10H12V15H7M19 19H5V8H19M19 3H18V1H16V3H8V1H6V3H5C3.9 3 3 3.9 3 5V19A2 2 0 0 0 5 21H19A2 2 0 0 0 21 19V5A2 2 0 0 0 19 3Z"> 
+                     </path> 
+                    </svg> 
+                   </div> 
+                   <div class="pikaday-container" id="inf_custom_Date_calContainer" style="right: 0;"> 
+                   </div> 
+                  </div> 
+                 </div> </td></tr></tbody></table> 
+            </div> 
+            <div> 
+             <div style="height:15px; line-height:15px;">
+               &nbsp; 
+             </div> 
+            </div> 
+            <div> 
+             <div class="infusion-submit" style="text-align:left;"> 
+              <button class="infusion-recaptcha" id="recaptcha_664a07cbc3a93990f366c64b7e3b576c" style="width:230px; height:60px; background-color:#7BBF43; color:#FFFFFF; font-size:20px; font-family:Helvetica; border-color:#000000; border-style:Hidden; border-width:1px; -moz-border-radius:25px;border-radius:25px;font-family:'museo-sans', sans-serif;" type="submit" value="SUBMIT">SUBMIT</button> 
+             </div> 
+            </div> </td></tr></tbody></table> </td></tr></tbody></table> 
+   </div> 
+  </form>  
+  <script type="text/javascript" src="https://ez372.infusionsoft.com/app/webTracking/getTrackingCode"></script> 
+  <script type="text/javascript" src="https://ez372.infusionsoft.com/app/timezone/timezoneInputJs?xid=664a07cbc3a93990f366c64b7e3b576c"></script>

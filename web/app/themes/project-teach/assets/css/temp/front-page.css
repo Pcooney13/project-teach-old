@@ -1,0 +1,178 @@
+.pt-material-row {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .pt-material-row .col-sm-12 {
+            display: flex;
+        }
+
+        .pt-material-box {
+            background: white;
+            transition: all .3s;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pt-material-box:hover {
+            opacity: 1;
+        }
+
+        /* a.link.image-link {
+                opacity: .6;
+            } */
+        .text-link h4 {
+            margin: 0;
+            font-weight: bold;
+            font-size: 21px;
+            margin-bottom: 15px;
+        }
+
+        .pt-material-box .description {
+            color: #4a4a4a;
+            font-size: 18px;
+            padding: 0;
+            line-height: 1;
+        }
+
+        .pt-material-box a {
+            display: block;
+            font-weight: 500;
+            padding-top: 15px;
+            text-decoration: underline;
+        }
+
+        .text-container {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+
+        .description-link {
+            margin-top: auto;
+        }
+
+        .text-container .btn-cover {
+            margin-top: auto;
+        }
+
+        .text-container .btn-cover .btn {
+            margin-top: 30px;
+            text-decoration: none;
+            color: #4a4a4a;
+            font-weight: bold;
+        }
+
+        .text-container .btn-cover .btn:hover {
+            color: white;
+        }
+
+        .blue .image-container {
+            background-color: #4791ce;
+        }
+
+        .blue .text-link {
+            color: #4791ce;
+        }
+
+        .blue .btn-cover .btn {
+            background-color: white;
+            border: 3px solid #4791ce;
+        }
+
+        .blue .btn-cover .btn:hover {
+            background-color: #4791ce;
+            color: white;
+        }
+
+        .green .image-container {
+            background-color: #7bbf43;
+        }
+
+        .green .text-link {
+            color: #7bbf43;
+        }
+
+        .green .btn-cover .btn {
+            background-color: white;
+            border: 3px solid #7bbf43;
+        }
+
+        .green .btn-cover .btn:hover {
+            background-color: #7bbf43;
+            color: white;
+        }
+
+        .purple .image-container {
+            background-color: #3a0e79;
+        }
+
+        .purple .text-link {
+            color: #3a0e79;
+        }
+
+        .purple .btn-cover .btn {
+            background-color: white;
+            border: 3px solid #3a0e79;
+        }
+
+        .purple .btn-cover .btn:hover {
+            background-color: #3a0e79;
+            color: white;
+        }
+
+        @media (max-width:992px) {
+            .pt-material-row {
+                flex-direction: column;
+            }
+
+            .pt-material-box {
+                display: flex;
+                margin: 0 15px;
+            }
+
+            .pt-material-row .col-sm-12 {
+                margin-bottom: 20px;
+            }
+
+            .text-container {
+                flex: 1;
+                text-align: left;
+            }
+
+            .image-container img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        @media (max-width:768px) {
+            .text-link h4 {
+                font-size: 18px;
+            }
+
+            .pt-material-box .description {
+                font-size: 16px;
+            }
+
+            .text-link h4 {
+                margin-bottom: 5px;
+            }
+
+            .image-container {
+                display: flex;
+                align-items: center;
+            }
+
+            .contect_search {
+                width: 450px;
+            }
+        }
+
+        @media (max-width:500px) {
+            .contect_search {
+                width: 200px;
+            }
+        }

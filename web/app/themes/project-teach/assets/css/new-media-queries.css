@@ -1,0 +1,88 @@
+/*--- Statewide Coordinator Center Media Queries ---*/
+@media (max-width: 1200px) and (min-width: 768px){
+  .scc-content h4{
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .scc-content ul li{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .icon-process,
+  .icon-cardinal,
+  .icon-openbook,
+  .icon-presentational{
+    font-size: 22px;
+  }
+  .psych-academy-blurb h4{
+    font-size: 24px;
+  }
+  .psych-academy-logo img{
+    width: 50%;
+  }
+  .psych-academy-blurb p{
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 767px){
+  .scc-content{
+    padding: 0px 45px;
+  }
+  .scc-img img{
+    padding: 0px 30px;
+  }
+  .psych-academy-logo img{
+    width: 80%;
+  }
+  .psych-academy-link .psych-academy-btn{
+    padding: 17px 13px!important;
+    font-size: 12px!important;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 500px){
+  .scc-content h4{
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .scc-content ul li .icon{
+    float: left;
+    width: 15%;
+  }
+  .scc-content ul li span{
+    float: left;
+    width: 75%;
+  }
+  .icon-process,
+  .icon-cardinal,
+  .icon-openbook,
+  .icon-presentational{
+    top: 2px;
+  }
+}
+
+/*--- Accessibility Media Queries ---*/
+@media (max-width: 768px){
+  .acc-quarter-first ul li .fa-address-card-o,
+  .acc-quarter-first ul li .fa-phone,
+  .acc-quarter-first ul li .fa-envelope{
+    position: relative;
+    top: 2px;
+  }
+  .acc-quarter-first ul li .fa{
+    float: left;
+    width: 8%;
+  }
+  .acc-quarter-first ul li span{
+    float: left;
+    width: 90%;
+  }
+  .acc-quarter-fourth ul li .fa{
+    width: 10%;
+  }
+  .acc-quarter-fourth ul li span{
+    width: 88%;
+  }
+}

@@ -1,0 +1,241 @@
+    #banner-wrapper {
+        display: none !important;
+    }
+    .text-white {
+        color:white;
+    }
+    .bg-white {
+        background-color:white;
+    }
+    .text-center {
+        text-align:center;
+    }
+    .text-lg {
+        font-size: 18px;
+    }
+    .mmh-standard p {
+        margin-bottom:15px;
+    }
+    body.mmh .flex-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width:1200px;
+        margin:0 auto;
+    }
+    .mmh__title {
+        font-weight:bold; 
+        font-size:42px; 
+        margin-bottom:15px;
+    }
+    #non-urgent {
+        padding-top:45px;
+        text-align:center;
+    }
+    .mmh__section {
+        padding:30px 0;
+    }
+    .consultations {
+        width:100%; 
+        display:flex; 
+        flex-direction:column;
+        justify-content:center;
+    }
+    .icon-viewfield {
+        margin: 0;
+        height: 80px;
+        width: 80px;
+        align-self: center;
+        overflow: hidden;
+        margin-bottom:20px;
+    }
+    .icon-slider {
+        transition: all .3s;
+        transform:translateY(0%);
+    }
+    .consultations:hover .icon-slider {
+        transform:translateY(-50%);
+    }
+    .page__nav {
+        display:flex;
+        justify-content: space-around;
+    }
+    .page__nav h3 {
+        width: 160px;
+        text-transform:uppercase;
+        margin:0 auto;
+    }
+    .page__nav-item {
+        list-style: none;
+        width:100%;
+        text-align: center;
+        padding:30px;
+        font-size:24px;
+        font-weight:900;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page__nav-item a {
+        color:white;
+    }
+    .page__nav-item a span {
+        display:block;
+        font-family:museo-sans, sans-serif;
+        font-weight:300;
+    }
+    .nav-item--publication {
+        background-color:#039fda;
+    }
+    .nav-item--video {
+        background-color:#3a0e79;
+    }
+    .nav-item--flyer {
+        background-color:#7bbf43;
+    }
+    .nav-item--resources {
+        background-color:#e09b3d;
+    }
+    .flex-row .flex-type {
+    max-width:550px;
+    padding: 0 15px;
+}
+.flex-row .flex-graphic {
+    width:40%;
+    max-width:450px;
+    min-width: 380px;
+}
+.background-svg-blue {
+    transform:translate(0, -100px); right:0; opacity:.08; position:absolute; max-width:500px;
+    z-index:-10;
+}
+    /* Table */
+    body.mmh .table__row {
+        display: flex;
+        padding:10px 0;
+    }
+    body.mmh .table__row:nth-child(odd) {
+        background-color: #d3edf7;
+    }
+    body.mmh .table__row.table__row--header {
+        font-weight: 600;
+        background-color: #039fda;
+        padding: 10px 5px;
+        color: white;
+    }
+    body.mmh  .table__row.webinar {
+        background:rgba(224, 155, 61, .5);
+        background-color:rgba(224, 155, 61, .5);
+    }
+    .non-urgent__block {
+        padding:15px 0;
+    }
+    body.mmh .consult__table {
+        max-width: 550px;
+        margin: 0 auto;
+        box-shadow:4px 4px 4px #f7f7f7;
+    }
+    .table__row.table__row--header:hover {
+        background-color: #039fda;
+    }
+    .table__day,
+    .table__name,
+    .table__month {
+        padding-left:15px;
+    }
+    .table__day{
+        width: 20%;
+    }
+    .table__month {
+        width: 30%;
+    }
+    .table__name {
+        width: 40%;
+    }
+    .table__time {
+        width: 10%;
+        padding-left:15px;
+    }
+    .team-block-row {
+        display:flex;
+        align-items:center;
+        background-color:#f7f7f7;
+        padding: 30px 0;
+        border-bottom: 1px solid #ddd;
+    }
+    .team-image {
+        width:180px; 
+        margin-right:15px;
+    }
+    .team-name {
+        font-weight:700;
+    }
+    .team-title {
+        font-size:16px;
+        line-height: 24px;
+    }
+    .view-consultants {
+        display:block; 
+        margin-top:10px;
+        border:none;
+        background:transparent;
+        margin:0 auto;
+        margin-top:6px;
+        transition: all .3s;
+        font-size:21px;
+        margin-top:15px;
+    }
+    .view-consultants:hover {
+        color:#039fda;
+    }
+    .team-member-info {
+        flex:1;
+    }
+    .panel-title:before {
+        font-family: 'FontAwesome';
+        position:absolute; 
+        right:30px;
+        float: left;
+        color: inherit;
+        padding-right: 10px;
+        vertical-align: top;
+        content: '-';
+        font-weight:900;
+    }
+    .collapsed .panel-title:before {
+        content: '+';
+    }
+    @media (min-width:991px) {
+       .test table tr td:first-child,
+        .mmh table tr td:first-child {
+            padding: 1px;
+        }
+    }
+    @media (max-width:800px) {
+        .background-svg {
+            display:none;
+        }
+        .page__nav {
+            flex-wrap:wrap;
+        }
+        .page__nav {
+            width:100%;
+        }
+        .icon-viewfield {
+            width:40px;
+            height:40px;
+        }
+        .team-block-row {
+            flex-direction: column;
+        }
+        .team-image {
+            border-radius:50%;
+            margin-bottom:10px;
+        }
+        .team-member-info {
+            padding:0 15px;
+            max-width:500px;
+            text-align: center;
+            margin:0 auto;
+        }
+    }

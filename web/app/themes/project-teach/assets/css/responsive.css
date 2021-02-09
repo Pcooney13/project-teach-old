@@ -1,0 +1,565 @@
+@charset "utf-8";
+@import url("new-media-queries.css");
+/*--------------media query css------------------*/
+/*------------tablet landscape view------*/
+@media (min-width:1600px) {
+.container { width: 1530px; }
+        body.mmh .credited-education-img {
+          min-height: 270px;
+          margin: 15px 0;
+        }
+
+        body.mmh iframe {
+          height: auto;
+          min-height: 300px;
+        }
+}
+
+@media (max-width:1599px) {
+/*<<<<=======================header page css style starts here==========================>>>*/
+.header-logo a { width: 90%; margin-bottom: 10px; margin-top: -10px; }
+.search_box { padding: 0; }
+.header-main { padding: 24px 0 5px 0; }
+.enumenu_ul > li { margin-right: 10px; }
+.enumenu_ul li a { font-size: 14px; }
+/*<<<<=======================header page css style end here==========================>>>*/
+/*<<<<=======================index page css style starts here==========================>>>*/
+.better_health-block .banner { padding: 17% 0 99px 0; }
+.better_health-block .banner .banner-text h1 { font-size: 60px; }
+.involved_text { padding: 0 20px; }
+.involved_map { padding: 0 20px; }
+.involved_text h2 { font-size: 60px; }
+.involved_map figure { width: 100%; display: inline-block; }
+.involved_map figure img { width: 100%; }
+.ftr-logo { margin: 0 0 38px 0; }
+.health-logo { margin: 0; }
+.ftr-project_teach { margin-left: 0; }
+.health-logo p { padding: 10px 0 0 0; margin-right: 0; }
+.ftr-logo p { padding: 10px 0 0 0; }
+.about_menu li { margin-right: 15px; }
+.health-logo a { width: 100%; }
+/*<<<<=======================index page css style end here==========================>>>*/
+/*<<<<=======================get-involved-block  page style starts here==========================>>>*/
+.service-txt p { padding: 36px 0 0; }
+/*<<<<=======================get-involved-block  page style end here==========================>>>*/
+
+/*<<<<=======================consultation page style starts here==========================>>>*/
+.consultation_map { padding: 0; }
+.consultation_map figure { width: 100%; display: inline-block; }
+.consultation_map figure img { width: 100%; }
+.consultation_dif { padding: 0; }
+.region_list li { width: 32%; padding: 0 15px; }
+.consultation_dif p { padding-bottom: 15px; }
+.region_list { padding: 20px 0 0 0px; }
+/*<<<<=======================consultation page css style starts here==========================>>>*/
+/*<<<<=======================regional-providers page style starts here==========================>>>*/
+.project_txt { padding: 40px 0; }
+.region_txt { padding: 20px 0 0 0; }
+.region_txt h2 { font-size: 30px; letter-spacing: 0; }
+.region_txt h2 a { font-size: 30px; letter-spacing: 0; }
+.region_map { padding: 0; }
+.region_map figure { width: 100%; display: inline-block; }
+.region_map figure img { width: 100%; }
+.region-block-3 .region_txt { padding: 20px 0 0 0; }
+/*<<<<=======================regional-providers page css style starts here==========================>>>*/
+/*<<<<=======================Regional Providers  page style starts here==========================>>>*/
+.region-block-2 .region_map figure { width: 100%; margin: 0; }
+.region-block-2 .region_txt { padding: 20px 0 0 0; }
+/*<<<<=======================Regional Providers  page style end here==========================>>>*/
+.project_txt p { padding: 0 60px; }
+/*<<<<=======================Referrals Page style end here==========================>>>*/
+.sec-title span { font-size: 18px; }
+.content-time li:nth-child(2n) { padding: 0 15px 0 0; }
+.faculty-info p { font-size: 23px; padding-right: 0; }
+.faculty-info { padding: 0px 20px 0; }
+.faculty-info p { font-size: 20px; padding-right: 0; }
+.featured-faculty a.btn { margin: 0; background: #039fda; color: #ffffff; font-size: 17px; }
+.cover-event { padding: 56px 25px 52px; }
+}
+
+@media (max-width:1200px) {
+/*<<<<=======================comman css style starts here==========================>>>*/
+.primary-providers h2 br { display: none; }
+.header-logo a { width: 100%; margin-bottom: 0; margin-top: 0; }
+.referrals-block .consulation p { padding-right: 0; }
+.pairagraph-txt { padding: 7px 70px 73px 42px; }
+/*<<<<=======================comman css style starts here==========================>>>*/
+.enumenu_ul li a { font-size: 13px; letter-spacing: 0; }
+/*<<<<=======================index page css style starts here==========================>>>*/
+.better_health-block .banner { padding: 32px 0 101px 0; }
+.better_health-block .banner { min-height: 500px; }
+.contact_text { padding: 8px 0 0 15px; }
+.header-main { padding: 22px 0 0 0; }
+.header-main .navbar { margin: 20px 0 10px; }
+/*<<<<=======================index page css style starts here==========================>>>*/
+/*<<<<=======================get-involved-block  page style starts here==========================>>>*/
+.primary-txt { padding: 35px 0 40px 0; }
+.primary-txt figcaption { padding: 27px 10px 0 10px; }
+.primary-txt figcaption .btn { padding: 24px 32px; }
+.list-primary .col-md-3:last-child .btn { padding: 24px 26px; }
+/*<<<<=======================get-involved-block  page style end here==========================>>>*/
+/*<<<<=======================about page style starts here==========================>>>*/
+.care-provide_list li { padding: 0 10px; }
+.cordination-txt { padding: 0; }
+.reginal_provader { padding: 0; }
+.program-funded h2 br { display: none; }
+/*<<<<=======================about page css style starts here==========================>>>*/
+/*<<<<=======================consultation page style starts here==========================>>>*/
+.consultation_map .btn { padding: 18px 30px 17px 30px; font-size: 14px; }
+.consultation_dif p { font-size: 20px; line-height: 1.6rem; }
+.region_list li a, .region_list li span { font-size: 19px; }
+/*<<<<=======================consultation page css style starts here==========================>>>*/
+/*<<<<=======================Regional Providers  page style starts here==========================>>>*/
+.project_txt p { max-width: 100%; }
+/*<<<<=======================Regional Providers  page style end here==========================>>>*/
+.sec-title span { width: calc(100% - 44px); width: -webkit-calc(100% - 44px); width: -moz-calc(100% - 44px); width: -ms-calc(100% - 44px); text-align: left; }
+.content-time { padding: 20px 20px 0; }
+.sec-title i img { width: 25px; }
+span.title-txt { font-size: 18px; margin-bottom: 5px; }
+span.time-title { font-size: 16px; margin-bottom: 0; }
+span.txt-auth { font-size: 14px; }
+.time-box::after { top: 45px; }
+.event-block .banner-text h1 { font-size: 38px; line-height: 1; }
+.overview-info p { padding-right: 0px; padding-left: 0px; }
+.event-overview p { font-size: 22px; color: #2c2c2c; line-height: 1.3; }
+.event-schedule { width: 458px; }
+.our-team ul li { width: 50% }
+.cme-info-inner { padding: 75px 35px 40px 55px; }
+}
+/*------------tablet portrait  view------*/
+@media (max-width:991px) {
+/*<<<<=======================comman css style starts here==========================>>>*/
+.header-main .navbar .nav > li > a { font-size: 13px; }
+.traning .btn { padding: 22px 45px !important; }
+/*<<<<=======================comman css style starts here==========================>>>*/
+/*<<<<=======================index page css style starts here==========================>>>*/
+.better_health-block .banner { min-height: 450px; padding: 70px 0; }
+.better_health-block .banner .banner-text { padding: 0; }
+.better_health-block .banner .banner-text h1 { font-size: 50px; line-height: 4rem; }
+.better_health-block .banner .banner-text h1 br { display: none; }
+.consultations .btn-call { padding: 24px 55px; }
+.traning .btn-call { padding: 24px 40px !important; }
+.involved_text span { font-size: 21px; margin: 20px 0 25px 0; }
+.contect_search { width: 100%; }
+.consultation-health { padding: 60px 0; min-height: 519px; }
+.consultation-health:after { min-height: 519px; }
+.social_media li:last-child { font-size: 16px; }
+.search_contect { padding: 35px 0; height: 266px; }
+.search_contect .search_txt .search { font-size: 24px; padding: 22px 83px 22px 45px; }
+.header-logo a { width: 235px; }
+  body.mmh .credited-education-img {
+    margin: 15px 0;
+  }
+/*<<<<=======================footer css style starts here==========================>>>*/
+.footer-main { padding: 35px 0; }
+.ftr-logo a { width: 100%; }
+.footer-main .left-sec { padding-left: 10px; }
+.contact_text { padding: 8px 0 0 0; }
+.social_media li a { font-size: 15px; }
+.social_media li span img { margin-right: 8px; }
+.ftr-project_teach span { font-size: 12px; }
+.ftr-project_teach h6 { letter-spacing: 1.5px; }
+.about_menu li a { letter-spacing: 0; }
+.ftr-project_teach p { padding-right: 10px; padding-bottom: 15px; }
+.ftr-project_teach span { padding-top: 10px; }
+.ftr-logo p { font-size: 7px; }
+.health-logo p { font-size: 7px; }
+/*<<<<=======================footer css style end here==========================>>>*/
+.consultations h3 { line-height: 2rem !important; margin: 25px 0 10px 0; }
+.consultations p { line-height: 1.8rem; }
+/*<<<<=======================index page css style end here==========================>>>*/
+
+/*<<<<=======================clinical-rating  page style starts here==========================>>>*/
+.pairagraph-txt { padding: 7px 0 60px 0; }
+/*<<<<=======================clinical-rating  page style end here==========================>>>*/
+
+/*<<<<=======================get-involved-block  page style starts here==========================>>>*/
+.get-involved-block .consultation-health { padding: 120px 0 99px 0; min-height: 430px; }
+.get-involved-block .consultation-health:after { min-height: 430px; }
+.project-services { padding: 45px 0 30px 0; }
+.service-txt p { padding: 20px 0 10px 0; line-height: 2rem; }
+.project-services h2 { font-size: 36px !important; line-height: 2.5rem !important; margin-bottom: 35px; }
+.project-services .col-xs-12 { padding-bottom: 15px; }
+.pediatricp-primary { padding: 35px 0 45px 0; }
+.list-primary { padding: 20px 0 0 0; }
+.list-primary .col-sm-6 { padding-bottom: 15px; }
+.service-txt .number { font-size: 36px; }
+.service-txt .number { height: 80px; width: 80px; line-height: 5.1rem; }
+.project-services [class^="col-"]:nth-of-type(4n+1) { clear: none; }
+.project-services [class^="col-"]:nth-of-type(2n+1) { clear: both; }
+.pediatricp-primary h2 { font-size: 36px !important; line-height: 2.5rem !important; padding: 0 10px; }
+.consultation-health .improve-health h2 { font-size: 36px !important; line-height: 2.5rem !important; }
+.get-involved-block .improve-health p { line-height: 1.8rem; font-size: 24px; padding: 9px 0 30px 0; }
+/*<<<<=======================get-involved-block  page style end here==========================>>>*/
+/*<<<<=======================consultation page style starts here==========================>>>*/
+.consultation_map { padding: 0 0 20px 0 }
+.consultation_text { padding: 45px 0; }
+/*<<<<=======================consultation page css style starts here==========================>>>*/
+
+/*<<<<=======================about page style starts here==========================>>>*/
+.program-funded { padding: 58px 0; min-height: 690px; }
+.vision-mission-block { padding: 45px 0; }
+.our-vision-txt { padding: 0; }
+.our-mission-txt { padding: 0; }
+.our-mission-txt p { padding-right: 0; padding-bottom: 0; }
+.our-vision-txt p { padding-right: 0; padding-bottom: 0; }
+.program-funded h2 br { display: none; }
+.about_block .primary-providers { padding: 50px 0 30px 0; }
+.cordination-region { min-height: auto; padding: 50px 0; }
+.program-funded h2 { padding: 0 15px; font-size: 36px !important; margin: 25px 0 30px 0; line-height: 2.5rem !important; }
+.program-funded p { padding: 0 15px 35px 15px; }
+.cordination-txt h2 { font-size: 36px !important; line-height: 2.5rem !important; }
+/*<<<<=======================about page css style starts here==========================>>>*/
+/*<<<<=======================clinical-rating  page style starts here==========================>>>*/
+.pairagraph-txt { padding: 7px 0 50px 35px; }
+.aggression-block table th { padding: 0 10px 13px 10px; }
+table tr td:first-child { padding: 25px 10px 20px 25px; }
+.aggression-block table td.aggression { padding: 25px 10px 20px 30px; }
+/*<<<<=======================clinical-rating  page style end here==========================>>>*/
+/*<<<<=======================Regional Providers  page style starts here==========================>>>*/
+.region_txt h2 { font-size: 25px !important; margin-bottom: 0; }
+.region_txt h2 a { font-size: 25px !important; }
+.university_txt li { font-size: 24px; }
+.region_txt .btn { letter-spacing: 0; padding: 24px 30px; }
+.region-block { padding: 25px 0 30px 0; }
+.university_txt { margin: 0px 0 24px 0; }
+.region-block-2 { padding: 25px 0 30px 0; }
+.region-block-3 { padding: 25px 0 30px 0; }
+.region-block-3 .university_txt { margin: 0px 0 24px 0; }
+.region-block-3 .university_txt li { margin-bottom: 15px; }
+.region-block-3 .university_txt li br { display: none; }
+.region-block-2 .region_map { padding: 0; }
+.region-block-3 .region_map { padding: 0; }
+.content_tbd_block { padding: 130px 0; }
+/*<<<<=======================Regional Providers  page style end here==========================>>>*/
+.content-time h3, .cover-event h3 { line-height: 1.2 !important; font-size: 20px !important; margin-bottom: 18px; }
+.content-time li { width: 100%; padding: 0; margin-bottom: 20px; }
+.content-time ul { margin: 0; }
+.event-block .banner-text h1 { font-size: 31px !important; line-height: 1.2 !important; }
+.event-schedule { width: 360px; }
+.event-schedule a.btn { width: 310px; }
+.event-schedule p { font-size: 22px; color: #fff; padding: 20px 0 50px 0; line-height: 1.4; }
+.event-overview p { font-size: 23px; color: #2c2c2c; line-height: 1.4; padding: 0 20px 25px; }
+.box-height, .box-height1 { height: 100% !important; }
+.faculty-info { padding: 30px 40px 30px }
+.our-team ul li { width: 50%; }
+.info-bio h3 { font-size: 24px; color: #fff; font-weight: 700; line-height: 1 !important; }
+.cme-info-inner { background: #F8F8F8; height: 100%; padding: 37px; }
+.cme-info-block h2 { font-size: 30px !important; line-height: 1.2 !important; }
+.cover-event .btn-cover .btn { padding: 12px 0 !important; }
+.cover-event br { display: none; }
+.cover-event { padding: 30px 25px 30px; }
+.cover-event .btn-cover .btn { padding: 12px 0px; font-size: 14px; }
+}
+
+/*------------mobile landscape  view------*/
+@media (min-width:768px) {
+    .dropdown .dropdown-menu {
+            color: #3a0e79;
+    }
+  /* .dropdown .dropdown-menu { background: #7bbf44; text-align: center; border-radius: 0; border: none; -webkit-transition: all 0.7s; -moz-transition: all 0.7s; -ms-transition: all 0.7s; -o-transition: all 0.7s; transition: all 0.7s; position: fixed; top: auto; left: auto; float: none; width: 100%; padding: 0; max-height: 0; opacity: 1; display: block; overflow: hidden; } */
+  /* .dropdown:hover > .dropdown-menu { display: block; max-height: 300px; opacity: 1; } */
+  .dropdown .dropdown-menu > li { display: inline-block; }
+  .dropdown-menu > li > a { font-weight: 600 !important; color: #555 !important; font-weight: 600; padding: 15px; text-align:center; text-transform: uppercase; }
+  .dropdown-menu > li > a:hover {  color: #039fda !important; background: none !important; }
+  .dropdown-menu > li.active > a { color: #3a0e79 !important; background: none !important; }
+}
+@media (max-width:767px) {
+.main .left-panel { float: none; width: 100% }
+.pf-resources-video-row { display: block; }
+body.parent-and-family-page .view-all { margin-bottom:32px; }
+.main aside { float: none; width: 92%; }
+.enumenu_ul { display: none; }
+.menu-block { height: auto; }
+body.mmh .img-wrapper { justify-content:center; }
+body.mmh .img-wrapper img { width:100%; }
+body.mmh .credit-badge { right:auto; }
+body.mmh .img-wrapper { max-width:400px; margin:0 auto;}
+body .video-text {max-width:400px; margin:0 auto; }
+.menu-icon { display: block; position: absolute; right: 0; top: -49px; }
+.services-detail a.pba-detail { border-bottom: 2px solid #d3d9da; }
+.header-main .navbar { border: 0; }
+.header-main .navbar .nav > li { padding: 0; margin: 10px 0; }
+.header-main .navbar .dropdown-menu { background: #fff; padding: 0; }
+.header-main .navbar .dropdown-menu  a { font-weight: 600; color: #3a0e79 !important; font-family: "museo-sans", sans-serif; letter-spacing: .5px; }
+.header-main .navbar > li { width: 100%; margin: 0 0 10px 0 !important; padding: 0px; text-align: center; }
+.header-main .navbar > li:last-child { margin-bottom: 0 !important; }
+.header-main .navbar > li > a { text-align: center; padding: 8px; color: #fff; }
+.navbar-nav { margin: 0; }
+.header-main .navbar li a { font-size: 14px !important; padding: 0; text-align: center; color: #fff !important; }
+.header-main .navbar li a:hover { color: #3a0e79 !important; }
+.header-main .navbar > li:hover > a, .enumenu_ul > li.active > a { color: #3a0e79; }
+.header-main .navbar { margin: 0 auto; background-color: #039fda; z-index: 999; }
+.header-main .navbar > li ul { background: #D1D1D1; }
+.header-main .navbar > li ul a { text-align: center; display: block; text-align: center; color: #000; padding: 5px 0; }
+.header-main .navbar .nav > li > a:after { background-color: none; height: 0; position: relative; }
+/* Push Menu */
+body.menuslide_push { position: relative; }
+body.menuslide_push.slidemenuLeft { left: 0; transition: left 0.5s; -webkit-transition: left 0.5s; -moz-transition: left 0.5s; -ms-transition: left 0.5s; -o-transition: left 0.5s; }
+body.menuslide_push.slidemenuRight { right: 0; transition: right 0.5s; -webkit-transition: right 0.5s; -moz-transition: right 0.5s; -ms-transition: right 0.5s; -o-transition: right 0.5s; }
+body.slidemenuRight .enumenu_ul { right: -300px; }
+body.slidemenuRight.menu-open .enumenu_ul { right: 0; }
+body.slidemenuLeft .enumenu_ul { left: -300px; }
+body.slidemenuLeft.menu-open .enumenu_ul { left: 0; }
+body.menuslide_push.slidemenuLeft.menu-open { left: 300px }
+body.menuslide_push.slidemenuRight.menu-open { right: 300px }
+body.menuslide_push .enumenu_ul, body.menuOverlap .enumenu_ul { background: #fff none repeat scroll 0 0; display: block; height: 100%; max-height: 100%; width: 100%; overflow: auto; position: fixed; transition: all 0.5s ease 0s; max-width: 300px; top: 0; z-index: 999; padding-top: 30px; }
+/*<<<<=======================comman css style starts here==========================>>>*/
+h1 { font-size: 42px !important; }
+.traning .btn { padding: 20px 43px !important; font-size: 14px !important; }
+.btn {font-size:14px;}
+/*<<<<=======================comman css style starts here==========================>>>*/
+/*<<<<=======================header css style starts here==========================>>>*/
+.header-logo { text-align: center; }
+.header-logo a { text-align: left; }
+.header-logo a img { width: 280px; text-align: left; }
+.search_box { padding: 10px 0 0 0; text-align: left; float: right; }
+.header-main { padding: 14px 0 0 0; }
+.search_box li:first-child { width: 225px; }
+/*<<<<=======================header css style end here==========================>>>*
+/*<<<<=======================footer css style starts here==========================>>>*/
+.footer-main { padding: 40px 0; }
+.footer-main .left-sec{text-align: center;}
+.ftr-logo a { width: 50%; }
+.ftr-logo { margin: 0 0 25px 0; }
+.ftr-logo a p { font-size: 7px !important; line-height: 0.6rem !important; }
+.health-logo a { width: 50%; }
+.health-logo a p { font-size: 7px !important; line-height: 0.7rem !important; }
+.ftr-project_teach { padding: 40px 15px 0 15px; text-align: center;}
+.ftr-project_teach p { padding: 0 0 15px 0; font-size: 18px; }
+.ftr-project_teach span { padding: 15px 0 0 0; display: none; }
+.contact_text { padding: 40px 15px 0 15px; text-align: center;}
+.social_media li { margin-bottom: 15px; }
+.health-logo span { padding-left: 70px; padding-bottom: 5px; }
+.ftr-copy-txt .row { display: block; }
+.ftr-copy-txt .row .copy_txt { font-size: 12px; text-align: center;}
+/*<<<<=======================footer css style end here==========================>>>*
+/*<<<<=======================index page css style starts here==========================>>>*/
+.better_health-block .banner .banner-text p { width: 75% }
+.better_health-block .banner .banner-text img { width:20%; }
+.better_health-block .banner .banner-text .btn {     margin: 0 auto; display: block; width: 225px; }
+.better_health-block .banner { min-height: 389px; }
+.better_health-block .banner .banner-text .btn_get { padding: 15px 40px !important; font-size: 14px; }
+.better_health-block .banner .banner-text h1 { font-size: 45px; }
+.consultations .btn-call { width: 180px; padding: 15px 20px !important; }
+.consultations h3 { margin: 15px 0 10px 0; line-height: 2rem !important; }
+.consultation-health { height: auto; padding: 10% 0; }
+.consultation-health .improve-health { padding: 0 15px 0 15px; }
+.consultation-health:after { height: 100%; }
+.get-involved { padding: 30px 0; }
+.involved_text p { padding: 0 0 20px 0; line-height: 2rem; }
+.involved_text span { line-height: 1.3rem; font-size: 18px; }
+.involved_text .btn-see { padding: 14px 45px; font-size: 14px; }
+.involved_text span { margin: 15px 0 20px 0; }
+.involved_map { padding: 25px 20px 0; }
+.search_contect { height: auto; padding: 20px 0 35px 0; }
+.consultation-health .improve-health .btn-contect { padding: 15px 45px; font-size: 14px; }
+.search_contect .search_txt h2 { font-size: 36px !important; margin-bottom: 15px; }
+.consultation-health { min-height: 424px; padding: 4% 0 6% 0; }
+.consultation-health:after { min-height: 424px; }
+.search_contect .search_txt .search { font-size: 22px; padding: 20px 83px 20px 45px; }
+.search_contect .search_txt .search-submit { width: 50px; height: 50px; }
+/*<<<<=======================index page css style end here==========================>>>*/
+/*<<<<=======================get-involved-block  page style starts here==========================>>>*/
+.get-involved-block .consultation-health { padding: 70px 0 50px 0; min-height: 328px; }
+.get-involved-block .consultation-health:after { min-height: 328px; }
+.get-involved-block .improve-health p { padding: 0 0 25px 0; }
+.primary-txt { padding: 25px 0 20px 0; height: auto !important; }
+.primary-txt figcaption p { padding: 0 0 20px 0; }
+.btn-learn { font-size: 14px; padding: 15px 45px; }
+.primary-txt figcaption .btn { font-size: 14px; padding: 15px 40px; }
+.pediatricp-primary p { padding: 6px 15px 20px 15px; }
+.list-primary .col-md-3:last-child p { padding: 0 0 42px 0; }
+.primary-txt figcaption { padding: 20px 10px 0 10px; }
+.project-services { padding: 45px 0 30px 0; }
+.service-txt p { padding: 10px 10px 0 10px; }
+.content_tbd_block { padding: 50px 0; }
+.content_tbd_block .content-txt p { padding: 0 0 15px 0; }
+.project-services h2 { font-size: 30px !important; line-height: 2.1rem !important; margin-bottom: 30px; }
+/*<<<<=======================get-involved-block  page style end here==========================>>>*/
+/*<<<<=======================clinical-rating  page style starts here==========================>>>*/
+.aggression-block { padding: 25px 0 35px 0; }
+.pairagraph-txt { padding: 7px 0 30px 0; }
+.aggression-block table td.aggression { font-size: 14px; }
+.aggression-block table td { font-size: 13px; }
+.aggression-block table th { font-size: 12px; }
+.aggression-block table td.aggression { padding: 15px; }
+table tr td:first-child { padding: 15px 15px 15px 10px }
+/*<<<<=======================clinical-rating  page style end here==========================>>>*/
+/*<<<<=======================about page style starts here==========================>>>*/
+.care-provide_list li { width: 100%; }
+.care-provide_list li p { padding: 10px 0 10px 0; }
+.care-provide_list { padding: 25px 0 0 0; }
+.cordination-region p { padding-bottom: 20px; }
+.cordination-region h2 { margin: 0 0 10px 0; font-size: 30px !important; line-height: 2.1rem !important; }
+.reginal_provader { padding-top: 25px; }
+.vision-mission-block h2 { margin: 0 0 10px 0; font-size: 30px !important; line-height: 2.1rem !important; }
+.our-mission-txt { padding-top: 20px; }
+.vision-mission-block { padding: 40px 0; }
+.primary-providers h2 { padding: 0 15px 0 15px; font-size: 36px !important; line-height: 2.7rem !important; }
+.program-funded h2 { font-size: 30px !important; line-height: 2.1rem !important; margin: 30px 0 20px 0; }
+.program-funded { min-height: 550px; }
+/*<<<<=======================about page css style starts here==========================>>>*/
+/*<<<<=======================consultation page style starts here==========================>>>*/
+.region_list { padding: 10px 0 0 0px; }
+.consultation_map .btn { line-height: 1.4rem; }
+.region_list .regio_1 h6 span { font-size: 20px; margin: 15px 0 6px 0; }
+.region_list .regio_2 h6 span { font-size: 20px; margin: 15px 0 6px 0; }
+.region_list .regio_3 h6 span { font-size: 20px; margin: 15px 0 6px 0; }
+.region_list li a, .region_list li span { font-size: 18px; }
+/*<<<<=======================consultation page style end here==========================>>>*/
+/*<<<<=======================Regional Providers  page style starts here==========================>>>*/
+.region-block { padding: 0 0 20px 0; }
+.region_txt { padding: 20px 0 20px 0; }
+.region-block-3 .region_txt { padding: 20px 0; }
+.region_txt .btn { padding: 20px 40px !important; }
+.region_txt h2 { font-size: 21px !important; }
+.region_txt h2 a { font-size: 21px !important; }
+.region-block-2 .university_txt { margin: 0 0 20px 0; }
+.region-block-3 .university_txt li { line-height: 2rem; margin: 0 0 10px 0; }
+.university_txt li { margin-bottom: 10px; }
+.project_txt { padding: 25px 0; }
+.project_txt p { padding: 0 0 0 35px; }
+.enumenu_ul li a::after { display: none }
+#google_translate_element .goog-te-gadget-simple { background-color: transparent; border-width: 0; cursor: pointer; display: block; font-size: 10pt; height: 100%; padding-bottom: 2px; padding-top: 1px; width: 100%; }
+.search_box #google_translate_element { font-size: 0; height: 42px; position: absolute; right: 14px; text-indent: -9999px; top: 22px; width: 18%; z-index: 0; }
+/*<<<<=======================Regional Providers  page style end here==========================>>>*/
+    /* Place the timelime to the left */
+.timeline::after { left: 20px; }
+/* Full-width containers */
+.time-box { width: 100%; padding-left: 40px; padding-right: 0; margin-top: 0; }
+/* Make sure that all arrows are pointing leftwards */
+.time-box::before { left: 60px; border: medium solid white; border-width: 10px 10px 10px 0; border-color: transparent white transparent transparent; }
+/* Make sure all circles are at the same spot */
+.left::after, .right::after { left: 10px; top: 32px; }
+/* Make all right containers behave like the left ones */
+.right { left: 0%; }
+.btn-cover { text-align: left; }
+.sec-title span { font-size: 16px; }
+.sec-title { padding: 33px 0; }
+.sec-title h2 { margin-bottom: 25px; }
+.timecover { padding: 0 15px; }
+.addcover { margin-bottom: 14px; }
+.event-overview p { font-size: 23px; color: #2c2c2c; line-height: 1.4; padding: 10px 30px 30px; height: 100% !important }
+.event-schedule { position: relative; width: 100%; padding-top: 30px; padding-bottom: 10px; }
+.event-schedule p { font-size: 22px; color: #fff; padding: 20px 0 17px 0; line-height: 1.4; }
+.event-block .banner { height: 100%; }
+.event-block .banner .banner-text { padding-top: 21px; }
+.event-block .banner-text h1 { font-size: 26px !important; line-height: 1.2 !important; }
+.social-media { margin-top: 18px; padding-top: 20px; padding-bottom: 10px; }
+.event-schedule a.btn { width: 270px; }
+.event-overview { text-align: center; padding-top: 70px; padding-bottom: 34px; }
+.cme-info-inner { background: #F8F8F8; height: 100%; padding: 20px; }
+.owl-prev { width: 40px; height: 40px; left: -20px; }
+.owl-next { width: 40px; height: 40px; right: -20px; }
+.match-height{ height:auto!important; }
+}
+
+@media (max-width:640px) {
+/*<<<<=======================comman css style starts here==========================>>>*/
+h1 { font-size: 36px !important; line-height: 2.5rem !important; }
+.search_contect .search_txt .search { padding: 15px 59px 15px 20px; font-size: 18px; }
+.search_contect .search_txt .search-submit:before { right: 11px; background-size: 18px; width: 18px; height: 18px; }
+.search_contect .search_txt .search-submit { width: 40px; height: 40px; right: 15px; }
+/*<<<<=======================comman css style starts here==========================>>>*/
+/*<<<<=======================consultation page style starts here==========================>>>*/
+.region_list li { width: 100%; margin-bottom: 20px; }
+.region_list .regio_1 h6 { margin: 10px 0 0 0; }
+.consultation_map .btn { padding: 18px 20px 17px 20px !important; letter-spacing: 0; }
+.consultation_text { padding: 50px 0 30px 0; }
+/*<<<<=======================consultation page css style starts here==========================>>>*/
+.our-team ul li { list-style: none; width: 100%; float: left; position: relative; cursor: pointer; }
+.cme-info-block { width:100%;}
+}
+
+/*------------mobile portrait view------*/
+
+/*----------optional css------*/
+@media (max-width:480px) {
+/*<<<<=======================comman css style starts here==========================>>>*/
+h2 { font-size: 24px !important; line-height: 1.8rem !important; }
+.search_contect .search_txt h2 { font-size: 24px !important; margin-bottom: 10px; }
+.ftr-logo a { width: 69%; }
+.health-logo a { width: 69%; }
+/*<<<<=======================comman css style starts here==========================>>>*/
+/*<<<<=======================header css style starts here==========================>>>*/
+.header-main { padding: 14px 0 14px 0; }
+.header-logo a img { width: 250px; }
+.menu-icon { top: -52px; }
+.menu-icon .menu-box { width: 40px; }
+.search_box .btn-translate { font-size: 13px; padding: 10px 20px; }
+.search_box li:first-child { width: 193px; margin-right: 8px; }
+.search_box li { vertical-align: top; }
+.search_box li:first-child .search_submit { height: 20px; width: 20px; }
+.search_box .search-field { font-size: 14px; padding: 10px 35px 10px 15px; }
+.search_box { padding: 6px 0 0 0; }
+.search_contect { padding: 20px 0 25px 0; }
+/*<<<<=======================header css style end here==========================>>>*/
+/*<<<<=======================index page css style starts here==========================>>>*/
+.consultation-health { padding: 6% 0; min-height: 365px; }
+.consultation-health:after { min-height: 365px; }
+.consultation-health .improve-health p { padding: 0 0 20px 0; }
+.consultation-health .improve-health h5 { font-size: 20px; line-height: 1.5rem; margin: 10px 0; }
+.consultations h3 { font-size: 20px !important; line-height: 1rem !important; }
+/*<<<<=======================index page css style end here==========================>>>*/
+/*<<<<=======================footer css style starts here==========================>>>*/
+.ftr-project_teach h6 { font-size: 18px; margin-bottom: 10px; }
+/*<<<<=======================footer css style end here==========================>>>*/
+/*<<<<=======================get-involved-block  page style starts here==========================>>>*/
+.get-involved-block .consultation-health { padding: 50px 0 40px 0; min-height: 288px; }
+.get-involved-block .consultation-health:after { min-height: 288px; }
+.get-involved-block .improve-health p { padding: 0 0 25px 0; line-height: 1.3rem !important; }
+.list-primary { padding: 20px 0 0 0; }
+.primary-txt figcaption h6 { font-size: 20px; margin-bottom: 10px; }
+.list-primary .col-md-3:last-child p { padding: 0 0 40px 0; }
+.project-services h2 { font-size: 24px !important; margin-bottom: 20px; line-height: 1.8rem !important; }
+.content_tbd_block { padding: 35px 0; }
+.pediatricp-primary h2 { font-size: 24px !important; line-height: 1.8rem !important; margin-bottom: 5px; }
+.consultation-health .improve-health h2 { font-size: 25px !important; line-height: 1.8rem !important; }
+/*<<<<=======================get-involved-block  page style end here==========================>>>*/
+
+/*<<<<=======================clinical-rating  page style starts here==========================>>>*/
+.aggression-block .table-box { overflow-x: scroll; overflow-y: hidden; }
+/*<<<<=======================clinical-rating  page style end here==========================>>>*/
+/*<<<<=======================about page style starts here==========================>>>*/
+.program-funded p { padding-bottom: 20px; }
+.program-funded a img { width: 270px; }
+.program-funded h2 { margin: 20px 0; font-size: 24px !important; line-height: 1.6rem !important; }
+.cordination-region h2 { font-size: 24px !important; line-height: 1.6rem !important; }
+.primary-providers h2 { font-size: 24px !important; line-height: 1.6rem !important; }
+.care-provide_list { padding: 15px 0 0 0; }
+.vision-mission-block h2 { font-size: 24px !important; line-height: 1.6rem !important; margin: 0 0 5px 0; }
+.vision-mission-block { padding: 30px 0; }
+.program-funded { min-height: 450px; padding: 35px 0; }
+/*<<<<=======================about page css style starts here==========================>>>*/
+/*<<<<=======================Regional Providers  page style starts here==========================>>>*/
+.university_txt li { font-size: 20px; margin-bottom: 10px; }
+#google_translate_element .goog-te-gadget-simple { background-color: transparent; border-width: 0; cursor: pointer; display: block; font-size: 10pt; height: 100%; padding-bottom: 2px; padding-top: 1px; width: 100%; }
+.search_box #google_translate_element { font-size: 0; height: 39px; position: absolute; right: 15px; text-indent: -9999px; top: 10px; width: 27%; z-index: 0; }
+/*<<<<=======================Regional Providers  page style end here==========================>>>*/
+.submenu ul li a { font-size: 17px; }
+.submenu ul li { display: inline-block; margin-right: 16px; }
+.cme-info-block { float: none; width: 100%; margin-bottom: 0; }
+.cme-info-block h2 { font-size: 24px !important; line-height: 1.2 !important; }
+.map-directions a.btn { padding: 20px 15px !important; font-size: 12px !important; }
+}
+
+@media (max-width:360px) {
+/*<<<<=======================header css style starts here==========================>>>*/
+.header-logo a img { width: 200px; }
+.menu-icon { top: -48px; }
+/*<<<<=======================header css style end here==========================>>>*/
+/*<<<<=======================footer css style starts here==========================>>>*/
+.ftr-logo a { width: 80%; }
+.health-logo a { width: 80%; }
+.about_menu li { margin-right: 4px; }
+.about_menu li a { font-size: 10px; }
+.ftr-project_teach span { font-size: 10px; padding: 10px 0 0 0; }
+/*<<<<=======================footer css style end here==========================>>>*/
+.search_contect .search_txt .search { padding: 12px 59px 12px 20px; }
+.search_contect .search_txt .search-submit:before { right: 9px; background-size: 16px; }
+.search_contect .search_txt .search-submit { width: 35px; height: 35px; right: 15px; }
+.search_box li:first-child { width: 155px; }
+}
+
+

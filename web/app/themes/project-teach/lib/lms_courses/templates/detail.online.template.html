@@ -1,0 +1,73 @@
+<!-- {{all-data}} -->
+<div class="item-detail" >
+	<div class="" style="text-align:left;margin-left:30px;">
+		<div class="" style="display: none">
+			<img src="{{thumbnail}}" alt="" />
+		</div>
+
+		<div>
+			<h2 style="min-height:30px">{{title}}</h2>
+		</div>
+
+		<div>
+			<p><span style="font-weight:bold">Start Date:</span>
+			<span>{{start-date}}</span></p>
+		</div>
+
+		<div>
+			<p><span style="font-weight:bold">End Date:</span>
+			<span>{{end-date}}</span></p>
+		</div>
+
+		{{locationHtml}}
+
+		<div class="credits-detail">
+			<p><span style="font-weight:bold">Number of Credits:</span>
+			<span>{{number-of-credits}}</span></p>
+		</div>
+
+		<div class="description">
+			<h4>Description</h4>
+			<p>{{description}}</p>
+		</div>
+
+		<div class="faculty-detail">
+			<h4>Faculty</h4>
+			<span style="">{{faculty-list}}</span>
+		</div>
+
+		<div class="btn-cover register">
+			<a href="{{register-url}}" title="Register" class="btn">Register Now</a>
+		</div>
+
+		{{agendaHtml}}
+		{{accommodationsHtml}}
+
+		<div class="cme-info-inner cf">
+			<div class="cme-info-block">
+				<h4>Learning Objectives</h4>
+				<p>{{learning-objectives-intro}}</p>
+				{{learning-objective-1ist}}
+			</div>
+			<div class="cme-info-block">
+				<h4>Target Audience</h4>
+				<p>{{target-audiences-intro}}</p>
+				{{target-audience-list}}
+			</div>
+			{{accreditations}}
+			<!-- <div class="cme-info-block">
+				<h4>Accreditation Statement</h4>
+				<p>{{accreditations}}</p>
+			</div>
+			<div class="cme-info-block">
+				<h4>AMA Credit Designation Statement</h4>
+				<p>{{cme-info-list}}</p>
+			</div> -->
+		</div>
+
+    	<div class="btn-cover back">
+			<a href="/training/online-courses/" title="Return to Catalog" class="btn">Return to Catalog</a>
+		</div>
+
+	</div>
+</div>

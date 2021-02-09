@@ -1,0 +1,18 @@
+              <!--Collapse {{SectionNumber}}-->
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" class="collapsed" href="#{{CollapseNumber}}">{{SectionTitle}}</a></h3>
+                  </div>
+                  <div id="{{CollapseNumber}}" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <div class="accordion-inner">
+                        <div class="row">
+                          <section id="{{SectionId}}" class="col-sm-12 page-content course-section">
+{{SectionHTML}}
+                            </section>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--End of Collapse {{SectionNumber}}-->

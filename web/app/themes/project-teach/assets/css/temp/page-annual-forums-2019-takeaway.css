@@ -1,0 +1,153 @@
+.video-wrapper {
+    display: inline-block;
+    width: 31%;
+    position: relative;
+    padding-top: 16%;
+    padding-bottom: 25px;
+    height: 0;
+    margin-bottom: 180px;
+}
+
+.video-wrapper .iframe {
+    padding: 0 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-wrapper>div {
+    padding: 0 15px;
+}
+
+.video-wrapper .iframe .player {
+    box-shadow: 4px 4px 4px #a4a4a4;
+}
+
+.video-text {
+    border-top: 18px solid #7bbf43;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 25px;
+}
+
+.takeaways {
+    padding: 100px 0;
+}
+
+.takeaways .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.takeaways img {
+    padding-right: 30px;
+    width: 60%;
+}
+
+.takeaways .btn {
+    margin-top: 30px;
+    background-color: #7BBF43;
+    border: 3px solid #7BBF43;
+    color: white;
+}
+
+.takeaways .btn:hover {
+    color: #7BBF43;
+    background-color: white;
+}
+
+.takeaways h2 {
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.video-present {
+    background-image: url('https://projectteachny.org/wp-content/themes/project-teach/assets/images/project-teach-bg.png');
+    background-color: #039fda;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.video-present h2 {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
+.video-present .row {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0 100px;
+}
+
+.video-present .presenter {
+    color: #a4a4a4;
+    padding: 0 0 8px;
+    margin-top: auto;
+}
+
+
+.video-present .present-title {
+    margin-top: 12px;
+    color: #3a0e79;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+.video-present .present-subtitle {
+    padding-bottom: 8px;
+}
+
+.takeaways .image {
+    background-size: cover;
+    background-position: center center;
+    width: 40%;
+    background-color: #f79027;
+    background-image: url(http://project-teach.launchpaddev.com/wp-content/themes/project-teach/assets/images/ps-why-is-prevention-science-so-important.png);
+    height: 550px;
+}
+
+@media (max-width: 900px) {
+    .video-wrapper {
+        width: 48%;
+        padding-top: 25%;
+    }
+}
+
+@media (max-width: 700px) {
+    .video-wrapper {
+        width: 88%;
+        padding-top: 47%;
+        margin-bottom: 140px;
+    }
+
+    .takeaways .row {
+        flex-wrap: wrap;
+    }
+
+    .takeaways img {
+        padding-bottom: 40px;
+        width: 90%;
+    }
+
+    .takeaways .text,
+    .takeaways .image {
+        width: 100%;
+        padding: 0 15px !important;
+    }
+}

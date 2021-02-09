@@ -1,0 +1,28 @@
+<style>
+table#AgendaTable td{
+ 	text-align: left;
+ 	vertical-align: middle;
+ 	padding-left:8px;
+}
+.ag-date{
+	width:140px;
+}
+.ag-time{
+	width:150px;
+}
+.ag-presenter{
+}
+.ag-title{
+}
+</style>
+
+<h2>Agenda</h2>
+<table id="AgendaTable" class="table">
+	<tr>
+		<th scope="col" class="dateColumn">Date</th>
+		<th scope="col" class="timeColumn">Time</th>
+		<th scope="col" class="titleColumn">Title</th>
+		<th scope="col" class="presenterColumn">Presenter</th>
+	</tr>
+{{agendaItems}}
+</table>

@@ -1,0 +1,776 @@
+{
+  "success": true,
+  "errorMessage": null,
+  "activityDetaillist": [
+    {
+      "id": 48,
+      "title": "Assessment & Diagnosis of ADHD",
+      "description": "This free, CME-certified webinar helps you effectively assess children and adolescents who may have ADHD. Pediatric primary care providers (PCPs) assess and treat the majority of young patients who have ADHD. Yet it can be difficult to diagnose due to complex comorbidities. Early identification of ADHD is critical in order to optimize health outcomes. The content of this webinar focuses on epidemiology and public health impact of ADHD, different types of ADHD and the implications for treatment, and genetic, environmental, and neurobiological underpinnings of ADHD. This webinar is presented by Project TEACH, a program funded by the New York State Office of Mental Health.",
+      "startDate": "2018-05-29T12:00:00-04:00",
+      "endDate": "2021-05-29T12:00:00-04:00",
+      "ExpirationDate": "2021-05-29T11:59:59-04:00",
+      "CustomActivityType": "Webinar",
+      "FunctionalActivityType": "WEBINAR",
+      "url": "https:\/\/lms.projectteachny.org\/Users\/producthomepage.aspx?ProductID=48",
+      "thumbnail": "https:\/\/lms.projectteachny.org\/ActivityIcons\/0_ADHD-1_alt_sfw_180x135.jpg",
+      "facultylists": [
+        {
+          "activityid": 48,
+          "name": "Biederman, Joseph, MD",
+          "role": "Presenter",
+          "SpeakerID": 2,
+          "url": "https:\/\/lms.projectteachny.org\/users\/speaker.aspx?SpeakerID=2"
+        }
+      ],
+      "overviewcontent": [
+        {
+          "key": "LearningObjectivesJSON",
+          "value": {
+            "intro": "At the end of this activity, participants should be able to:",
+            "learningObjectives": [
+              {
+                "learningObjective": "Describe the epidemiology, life course, and public health impact of ADHD."
+              },
+              {
+                "learningObjective": "Discuss the genetic, environmental, and neurobiological underpinnings of ADHD."
+              },
+              {
+                "learningObjective": "Identify the differences between the types of ADHD, including the implications for treatment."
+              }
+            ]
+          }
+        },
+        {
+          "key": "TargetAudienceJSON",
+          "value": {
+            "intro": "This program is intended for:",
+            "targetAudiences": [
+              {
+                "targetAudience": "Psychiatrists"
+              },
+              {
+                "targetAudience": "Primary Care and Family Practice Physicians"
+              },
+              {
+                "targetAudience": "Pediatricians"
+              },
+              {
+                "targetAudience": "Nursing Professionals"
+              },
+              {
+                "targetAudience": "Residents"
+              },
+              {
+                "targetAudience": "Other Mental Health, Primary Care and Pediatric Clinicians"
+              }
+            ]
+          }
+        }
+      ],
+      "cmeinfocontent": [
+        {
+          "key": "CMEInfoJSON",
+          "value": {
+            "releaseDate": "Release Date: May 29, 2018",
+            "expirationDate": "Expiration Date: May 29, 2021",
+            "reviewDate": "",
+            "availableCreditTypes": [
+              {
+                "credits": "1.00",
+                "creditType": "<p><span>Other Professions (self-claim)<\/span><\/p>",
+                "accreditationStatment": "<p>Other Providers can claim a Participation Certificate upon successful completion of this course.<\/p>",
+                "designationStatment": "<p>Participation Certificates will specify the title, location, type of activity, date of activity, and number of AMA PRA Category 1 Credits<sup>TM<\/sup> associated with the activity. Providers should check with their regulatory agencies to determine ways in which AMA PRA Category 1 Credits<sup>TM<\/sup> may or may not fulfill continuing education requirements. Providers should also consider saving copies of brochures, agenda, and other supporting documents.<\/p><p>We recommend physician assistants and nurse practitioners select this certificate.<\/p>"
+              },
+              {
+                "credits": "1.00",
+                "creditType": "<p><em>AMA PRA Category 1 Credit<\/em><sup>TM<\/sup><\/p>",
+                "accreditationStatment": "<p>This activity has been planned and implemented in accordance with the accreditation requirements and policies of the Accreditation Council for Continuing Medical Education (ACCME) through the joint providership of McLean Hospital and Massachusetts General Hospital. McLean Hospital is accredited by the ACCME to provide continuing medical education for physicians.<\/p>",
+                "designationStatment": "<p>McLean Hospital designates this enduring material for a maximum of 1.00 <em>AMA PRA Category 1 Credits<\/em><sup>TM<\/sup>. Physicians should only claim credit commensurate with the extent of their participation in the activity.<\/p>"
+              }
+            ]
+          }
+        }
+      ],
+      "tags": [
+        {
+          "typeid": "2",
+          "type": "WebsiteType",
+          "id": "29",
+          "name": "MGHProjectTeach",
+          "thumbnail": "https:\/\/lms.projectteachny.org\/ActivityIcons\/",
+          "parentid": "0",
+          "parentname": ""
+        },
+        {
+          "typeid": "10",
+          "type": "Daignosis",
+          "id": "79",
+          "name": "ADHD",
+          "thumbnail": "",
+          "parentid": "0",
+          "parentname": ""
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Treatment of ADHD",
+      "description": "This free, CME-certified webinar helps you provide the best possible care to children and adolescents with ADHD. Pediatric primary care providers (PCPs) assess and treat the majority of young patients who have ADHD. This makes early diagnosis and treatment of ADHD important in primary care settings. Undertreatment of ADHD can have significant personal and societal impacts. Barriers to treatment include poor adherence, treatment resistance, adverse medication effects, and more. The content of this webinar focuses on multiple treatment strategies for ADHD with stimulants, nonstimulants, and other medications, treatment of comorbidities such as ODD, conduct disorder, anxiety, depression, and bipolar disorder, and relative effect sizes of treatment options and when to choose one versus another. This webinar is presented by Project TEACH, a program funded by the New York State Office of Mental Health.",
+      "startDate": "2018-05-29T12:00:00-04:00",
+      "endDate": "2021-05-29T12:00:00-04:00",
+      "ExpirationDate": "2021-05-29T11:59:59-04:00",
+      "CustomActivityType": "Webinar",
+      "FunctionalActivityType": "WEBINAR",
+      "url": "https:\/\/lms.projectteachny.org\/Users\/producthomepage.aspx?ProductID=49",
+      "thumbnail": "https:\/\/lms.projectteachny.org\/ActivityIcons\/0_ADHD-2_alt_sfw_180x135.jpg",
+      "facultylists": [
+        {
+          "activityid": 49,
+          "name": "Biederman, Joseph, MD",
+          "role": "Presenter",
+          "SpeakerID": 2,
+          "url": "https:\/\/lms.projectteachny.org\/users\/speaker.aspx?SpeakerID=2"
+        }
+      ],
+      "overviewcontent": [
+        {
+          "key": "LearningObjectivesJSON",
+          "value": {
+            "intro": "At the end of this activity, participants should be able to:",
+            "learningObjectives": [
+              {
+                "learningObjective": "Describe the multiple options available for the treatment of ADHD with stimulants, nonstimulants, and other classes of medication."
+              },
+              {
+                "learningObjective": "Discuss relative effect sizes of the stimulants and nonstimulants and to provide a rationale for when to choose one versus another."
+              },
+              {
+                "learningObjective": "Identify the effects of treatment of ADHD on co-morbid conditions such as ODD, Conduct Disorder, Anxiety, Depression, and Bipolar Disorder."
+              }
+            ]
+          }
+        },
+        {
+          "key": "TargetAudienceJSON",
+          "value": {
+            "intro": "This program is intended for:",
+            "targetAudiences": [
+              {
+                "targetAudience": "Psychiatrists"
+              },
+              {
+                "targetAudience": "Primary Care and Family Practice Physicians"
+              },
+              {
+                "targetAudience": "Pediatricians"
+              },
+              {
+                "targetAudience": "Nursing Professionals"
+              },
+              {
+                "targetAudience": "Residents"
+              },
+              {
+                "targetAudience": "Other Mental Health, Primary Care and Pediatric Clinicians"
+              }
+            ]
+          }
+        }
+      ],
+      "cmeinfocontent": [
+        {
+          "key": "CMEInfoJSON",
+          "value": {
+            "releaseDate": "Release Date: May 29, 2018",
+            "expirationDate": "Expiration Date: May 29, 2021",
+            "reviewDate": "",
+            "availableCreditTypes": [
+              {
+                "credits": "1.00",
+                "creditType": "<p><span>Other Professions (self-claim)<\/span><\/p>",
+                "accreditationStatment": "<p>Other Providers can claim a Participation Certificate upon successful completion of this course.<\/p>",
+                "designationStatment": "<p>Participation Certificates will specify the title, location, type of activity, date of activity, and number of AMA PRA Category 1 Credits<sup>TM<\/sup> associated with the activity. Providers should check with their regulatory agencies to determine ways in which AMA PRA Category 1 Credits<sup>TM<\/sup> may or may not fulfill continuing education requirements. Providers should also consider saving copies of brochures, agenda, and other supporting documents.<\/p><p>We recommend physician assistants and nurse practitioners select this certificate.<\/p>"
+              },
+              {
+                "credits": "1.00",
+                "creditType": "<p><em>AMA PRA Category 1 Credit<\/em><sup>TM<\/sup><\/p>",
+                "accreditationStatment": "<p>This activity has been planned and implemented in accordance with the accreditation requirements and policies of the Accreditation Council for Continuing Medical Education (ACCME) through the joint providership of McLean Hospital and Massachusetts General Hospital. McLean Hospital is accredited by the ACCME to provide continuing medical education for physicians.<\/p>",
+                "designationStatment": "<p>McLean Hospital designates this enduring material for a maximum of 1.00 <em>AMA PRA Category 1 Credits<\/em><sup>TM<\/sup>. Physicians should only claim credit commensurate with the extent of their participation in the activity.<\/p>"
+              }
+            ]
+          }
+        }
+      ],
+      "tags": [
+        {
+          "typeid": "2",
+          "type": "WebsiteType",
+          "id": "29",
+          "name": "MGHProjectTeach",
+          "thumbnail": "https:\/\/lms.projectteachny.org\/ActivityIcons\/",
+          "parentid": "0",
+          "parentname": ""
+        },
+        {
+          "typeid": "10",
+          "type": "Daignosis",
+          "id": "79",
+          "name": "ADHD",
+          "thumbnail": "",
+          "parentid": "0",
+          "parentname": ""
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Diagnosis and Treatment of Depression During Pregnancy",
+      "description": "This free, CME-certified webinar helps you effectively screen for and treat depression during pregnancy. This is critical for your primary care practice if you see female patients during this important time.Depression affects up to 15% of women in the perinatal period. Yet it remains largely undertreated despite significant risks. The risks include higher exposure of the fetus to alcohol and drugs, less adequate prenatal care, higher rates of preeclampsia and low birth weight, and more. Many health care providers often have questions on antidepressant use. And patients can over-rely on information in media and social media that undervalues treatment.This webinar is presented by Project TEACH, a program funded by the New York State Office of Mental Health.",
+      "startDate": "2018-05-29T12:00:00-04:00",
+      "endDate": "2021-05-29T12:00:00-04:00",
+      "ExpirationDate": "2021-05-29T11:59:59-04:00",
+      "CustomActivityType": "Webinar",
+      "FunctionalActivityType": "WEBINAR",
+      "url": "https:\/\/lms.projectteachny.org\/Users\/producthomepage.aspx?ProductID=50",
+      "thumbnail": "https:\/\/lms.projectteachny.org\/ActivityIcons\/0_doctorandpx.jpg",
+      "facultylists": [
+        {
+          "activityid": 50,
+          "name": "Cohen, Lee, S, MD",
+          "role": "Presenter",
+          "SpeakerID": 7,
+          "url": "https:\/\/lms.projectteachny.org\/users\/speaker.aspx?SpeakerID=7"
+        }
+      ],
+      "overviewcontent": [
+        {
+          "key": "LearningObjectivesJSON",
+          "value": {
+            "intro": "At the end of this activity, participants should be able to:",
+            "learningObjectives": [
+              {
+                "learningObjective": "Discuss reproductive safety of old and new psychiatric medications during pregnancy"
+              },
+              {
+                "learningObjective": "Provide treatment algorithm for management of psychiatric disorders during pregnancy"
+              },
+              {
+                "learningObjective": "Review critical research findings in course of psychiatric disorder during pregnancy"
+              }
+            ]
+          }
+        },
+        {
+          "key": "TargetAudienceJSON",
+          "value": {
+            "intro": "This program is intended for:",
+            "targetAudiences": [
+              {
+                "targetAudience": "Psychiatrists"
+              },
+              {
+                "targetAudience": "Primary Care and Family Practice Physicians"
+              },
+              {
+                "targetAudience": "Pediatricians"
+              },
+              {
+                "targetAudience": "Nursing Professionals"
+              },
+              {
+                "targetAudience": "Residents"
+              },
+              {
+                "targetAudience": "Other Mental Health, Primary Care and Pediatric Clinicians"
+              },
+              {
+                "targetAudience": "Obstetricians\/Gynecologists"
+              }
+            ]
+          }
+        }
+      ],
+      "cmeinfocontent": [
+        {
+          "key": "CMEInfoJSON",
+          "value": {
+            "releaseDate": "Release Date: May 29, 2018",
+            "expirationDate": "Expiration Date: May 29, 2021",
+            "reviewDate": "",
+            "availableCreditTypes": [
+              {
+                "credits": "1.00",
+                "creditType": "<p><span>Other Professions (self-claim)<\/span><\/p>",
+                "accreditationStatment": "<p>Other Providers can claim a Participation Certificate upon successful completion of this course.<\/p>",
+                "designationStatment": "<p>Participation Certificates will specify the title, location, type of activity, date of activity, and number of AMA PRA Category 1 Credits<sup>TM<\/sup> associated with the activity. Providers should check with their regulatory agencies to determine ways in which AMA PRA Category 1 Credits<sup>TM<\/sup> may or may not fulfill continuing education requirements. Providers should also consider saving copies of brochures, agenda, and other supporting documents.<\/p><p>We recommend physician assistants and nurse practitioners select this certificate.<\/p>"
+              },
+              {
+                "credits": "1.00",
+                "creditType": "<p><em>AMA PRA Category 1 Credit<\/em><sup>TM<\/sup><\/p>",
+                "accreditationStatment": "<p>This activity has been planned and implemented in accordance with the accreditation requirements and policies of the Accreditation Council for Continuing Medical Education (ACCME) through the joint providership of McLean Hospital and Massachusetts General Hospital. McLean Hospital is accredited by the ACCME to provide continuing medical education for physicians.<\/p>",
+                "designationStatment": "<p>McLean Hospital designates this enduring material for a maximum of 1.00 <em>AMA PRA Category 1 Credits<\/em><sup>TM<\/sup>. Physicians should only claim credit commensurate with the extent of their participation in the activity.<\/p>"
+              }
+            ]
+          }
+        }
+      ],
+      "tags": [
+        {
+          "typeid": "2",
+          "type": "WebsiteType",
+          "id": "29",
+          "name": "MGHProjectTeach",
+          "thumbnail": "https:\/\/lms.projectteachny.org\/ActivityIcons\/",
+          "parentid": "0",
+          "parentname": ""
+        },
+        {
+          "typeid": "10",
+          "type": "Daignosis",
+          "id": "82",
+          "name": "Depression",
+          "thumbnail": "",
+          "parentid": "0",
+          "parentname": ""
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "title": "Screening and Treatment of Postpartum Depression",
+      "description": "This free, CME-certified webinar provides clear tools to help you effectively screen and treat new mothers for postpartum depression. This is critical for your primary care practice, as this condition affects up to 19 percent of mothers and newborns. The risk is even higher in some populations. Symptoms can progress to include psychosis, suicidal thoughts, or thoughts of harming themselves or their infant. Even without these extremes, women who are affected by postpartum depression are less likely to provide their infants with enriched environments. Children of depressed mothers can exhibit psychiatric symptoms themselves even within just two years. This webinar is presented by Project TEACH, a program funded by the New York State Office of Mental Health.",
+      "startDate": "2018-05-29T12:00:00-04:00",
+      "endDate": "2021-05-29T12:00:00-04:00",
+      "ExpirationDate": "2021-05-29T11:59:59-04:00",
+      "CustomActivityType": "Webinar",
+      "FunctionalActivityType": "WEBINAR",
+      "url": "https:\/\/lms.projectteachny.org\/Users\/producthomepage.aspx?ProductID=51",
+      "thumbnail": "https:\/\/lms.projectteachny.org\/ActivityIcons\/0_obgyn.jpg",
+      "facultylists": [
+        {
+          "activityid": 51,
+          "name": "Freeman, Marlene, P, MD, MPH",
+          "role": "Presenter",
+          "SpeakerID": 8,
+          "url": "https:\/\/lms.projectteachny.org\/users\/speaker.aspx?SpeakerID=8"
+        }
+      ],
+      "overviewcontent": [
+        {
+          "key": "LearningObjectivesJSON",
+          "value": {
+            "intro": "At the end of this activity, participants should be able to:",
+            "learningObjectives": [
+              {
+                "learningObjective": "Describe the risk factors for postpartum depression"
+              },
+              {
+                "learningObjective": "Discuss bipolar disorder and treatment during the postpartum period"
+              },
+              {
+                "learningObjective": "Discuss the presentation of postpartum psychosis and associated risks"
+              },
+              {
+                "learningObjective": "Review the risks and benefits of different treatment options for depression in the context of the postpartum and breastfeeding"
+              }
+            ]
+          }
+        },
+        {
+          "key": "TargetAudienceJSON",
+          "value": {
+            "intro": "This program is intended for:",
+            "targetAudiences": [
+              {
+                "targetAudience": "Psychiatrists"
+              },
+              {
+                "targetAudience": "Primary Care and Family Practice Physicians"
+              },
+              {
+                "targetAudience": "Pediatricians"
+              },
+              {
+                "targetAudience": "Nursing Professionals"
+              },
+              {
+                "targetAudience": "Residents"
+              },
+              {
+                "targetAudience": "Other Mental Health, Primary Care and Pediatric Clinicians"
+              },
+              {
+                "targetAudience": "Obstetricians\/Gynecologists"
+              }
+            ]
+          }
+        }
+      ],
+      "cmeinfocontent": [
+        {
+          "key": "CMEInfoJSON",
+          "value": {
+            "releaseDate": "Release Date: May 29, 2018",
+            "expirationDate": "Expiration Date: May 29, 2021",
+            "reviewDate": "",
+            "availableCreditTypes": [
+              {
+                "credits": "1.00",
+                "creditType": "<p><span>Other Professions (self-claim)<\/span><\/p>",
+                "accreditationStatment": "<p>Other Providers can claim a Participation Certificate upon successful completion of this course.<\/p>",
+                "designationStatment": "<p>Participation Certificates will specify the title, location, type of activity, date of activity, and number of AMA PRA Category 1 Credits<sup>TM<\/sup> associated with the activity. Providers should check with their regulatory agencies to determine ways in which AMA PRA Category 1 Credits<sup>TM<\/sup> may or may not fulfill continuing education requirements. Providers should also consider saving copies of brochures, agenda, and other supporting documents.<\/p><p>We recommend physician assistants and nurse practitioners select this certificate.<\/p>"
+              },
+              {
+                "credits": "1.00",
+                "creditType": "<p><em>AMA PRA Category 1 Credit<\/em><sup>TM<\/sup><\/p>",
+                "accreditationStatment": "<p>This activity has been planned and implemented in accordance with the accreditation requirements and policies of the Accreditation Council for Continuing Medical Education (ACCME) through the joint providership of McLean Hospital and Massachusetts General Hospital. McLean Hospital is accredited by the ACCME to provide continuing medical education for physicians.<\/p>",
+                "designationStatment": "<p>McLean Hospital designates this enduring material for a maximum of 1.00 <em>AMA PRA Category 1 Credits<\/em><sup>TM<\/sup>. Physicians should only claim credit commensurate with the extent of their participation in the activity.<\/p>"
+              }
+            ]
+          }
+        }
+      ],
+      "tags": [
+        {
+          "typeid": "2",
+          "type": "WebsiteType",
+          "id": "29",
+          "name": "MGHProjectTeach",
+          "thumbnail": "https:\/\/lms.projectteachny.org\/ActivityIcons\/",
+          "parentid": "0",
+          "parentname": ""
+        },
+        {
+          "typeid": "10",
+          "type": "Daignosis",
+          "id": "82",
+          "name": "Depression",
+          "thumbnail": "",
+          "parentid": "0",
+          "parentname": ""
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Marijuana in Kids",
+      "description": "This free one-hour webinar enhances your skills to assess, treat and manage common mental health concerns in children and youth. It is presented by Project TEACH, a project funded by the New York State Office of Mental Health. This webinar addresses the topic of Substance Use Disorders",
+      "startDate": "2017-12-29T12:00:00-05:00",
+      "endDate": "2020-12-29T12:00:00-05:00",
+      "ExpirationDate": "2020-12-29T11:59:59-05:00",
+      "CustomActivityType": "Webinar",
+      "FunctionalActivityType": "WEBINAR",
+      "url": "https:\/\/lms.projectteachny.org\/Users\/producthomepage.aspx?ProductID=36",
+      "thumbnail": "https:\/\/lms.projectteachny.org\/ActivityIcons\/0_SUD_sfw_180x135.jpg",
+      "facultylists": [
+        {
+          "activityid": 36,
+          "name": "Wilens, Timothy, E., MD",
+          "role": "Presenter",
+          "SpeakerID": 1,
+          "url": "https:\/\/lms.projectteachny.org\/users\/speaker.aspx?SpeakerID=1"
+        }
+      ],
+      "overviewcontent": [
+        {
+          "key": "LearningObjectivesJSON",
+          "value": {
+            "intro": "At the end of this activity, participants should be able to:",
+            "learningObjectives": [
+              {
+                "learningObjective": "Compare the risks factors of cannabis use to the general risk factors for mental illness in youth"
+              },
+              {
+                "learningObjective": "Describe the constitution of cannabis and the relations of these underlying chemicals to the brain activity associated with cannabis use"
+              },
+              {
+                "learningObjective": "Identify the secular trends in cannabis use disorders among adolescents and their relations to the public perception of cannabis"
+              }
+            ]
+          }
+        },
+        {
+          "key": "TargetAudienceJSON",
+          "value": {
+            "intro": "This program is intended for:",
+            "targetAudiences": [
+              {
+                "targetAudience": "Psychiatrists"
+              },
+              {
+                "targetAudience": "Primary Care and Family Practice Physicians"
+              },
+              {
+                "targetAudience": "Pediatricians"
+              },
+              {
+                "targetAudience": "Nursing Professionals"
+              },
+              {
+                "targetAudience": "Residents"
+              },
+              {
+                "targetAudience": "Other Mental Health, Primary Care and Pediatric Clinicians"
+              }
+            ]
+          }
+        }
+      ],
+      "cmeinfocontent": [
+        {
+          "key": "CMEInfoJSON",
+          "value": {
+            "releaseDate": "Release Date: Dec 29, 2017",
+            "expirationDate": "Expiration Date: Dec 29, 2020",
+            "reviewDate": "",
+            "availableCreditTypes": [
+              {
+                "credits": "1.00",
+                "creditType": "<p><span>Other Professions (self-claim)<\/span><\/p>",
+                "accreditationStatment": "<p>Other Providers can claim a Participation Certificate upon successful completion of this course.<\/p>",
+                "designationStatment": "<p>Participation Certificates will specify the title, location, type of activity, date of activity, and number of AMA PRA Category 1 Credits<sup>TM<\/sup> associated with the activity. Providers should check with their regulatory agencies to determine ways in which AMA PRA Category 1 Credits<sup>TM<\/sup> may or may not fulfill continuing education requirements. Providers should also consider saving copies of brochures, agenda, and other supporting documents.<\/p><p>We recommend physician assistants and nurse practitioners select this certificate.<\/p>"
+              },
+              {
+                "credits": "1.00",
+                "creditType": "<p><em>AMA PRA Category 1 Credit<\/em><sup>TM<\/sup><\/p>",
+                "accreditationStatment": "<p>This activity has been planned and implemented in accordance with the accreditation requirements and policies of the Accreditation Council for Continuing Medical Education (ACCME) through the joint providership of McLean Hospital and Massachusetts General Hospital. McLean Hospital is accredited by the ACCME to provide continuing medical education for physicians.<\/p>",
+                "designationStatment": "<p>McLean Hospital designates this enduring material for a maximum of 1.00 <em>AMA PRA Category 1 Credits<\/em><sup>TM<\/sup>. Physicians should only claim credit commensurate with the extent of their participation in the activity.<\/p>"
+              }
+            ]
+          }
+        }
+      ],
+      "tags": [
+        {
+          "typeid": "2",
+          "type": "WebsiteType",
+          "id": "29",
+          "name": "MGHProjectTeach",
+          "thumbnail": "https:\/\/lms.projectteachny.org\/ActivityIcons\/",
+          "parentid": "0",
+          "parentname": ""
+        },
+        {
+          "typeid": "10",
+          "type": "Daignosis",
+          "id": "83",
+          "name": "Substance Abuse",
+          "thumbnail": "",
+          "parentid": "0",
+          "parentname": ""
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Developmental and Behavioral Health Screening in Pediatric Primary Care",
+      "description": "This free one-hour webinar enhances your skills to assess, treat and manage common mental health concerns in children and youth. It is presented by Project TEACH, a project funded by the New York State Office of Mental Health. This webinar addresses the topic of Mental Health Screening in primary care for Children and Adolescents.",
+      "startDate": "2017-12-29T12:00:00-05:00",
+      "endDate": "2020-12-29T12:00:00-05:00",
+      "ExpirationDate": "2020-12-29T11:59:59-05:00",
+      "CustomActivityType": "Webinar",
+      "FunctionalActivityType": "WEBINAR",
+      "url": "https:\/\/lms.projectteachny.org\/Users\/producthomepage.aspx?ProductID=41",
+      "thumbnail": "https:\/\/lms.projectteachny.org\/ActivityIcons\/0_screening_sfw_180x135.jpg",
+      "facultylists": [
+        {
+          "activityid": 41,
+          "name": "Ward-Zimmerman, Barbara, PhD",
+          "role": "Presenter",
+          "SpeakerID": 5,
+          "url": "https:\/\/lms.projectteachny.org\/users\/speaker.aspx?SpeakerID=5"
+        }
+      ],
+      "overviewcontent": [
+        {
+          "key": "LearningObjectivesJSON",
+          "value": {
+            "intro": "At the end of this activity, participants should be able to:",
+            "learningObjectives": [
+              {
+                "learningObjective": "Choose developmental and behavioral health screening tools to pilot"
+              },
+              {
+                "learningObjective": "Discuss the value of routine developmental and behavioral health screening in pediatric primary care"
+              },
+              {
+                "learningObjective": "Plan an efficient screening protocol for practice-wide implementation"
+              }
+            ]
+          }
+        },
+        {
+          "key": "TargetAudienceJSON",
+          "value": {
+            "intro": "This program is intended for:",
+            "targetAudiences": [
+              {
+                "targetAudience": "Psychiatrists"
+              },
+              {
+                "targetAudience": "Primary Care and Family Practice Physicians"
+              },
+              {
+                "targetAudience": "Pediatricians"
+              },
+              {
+                "targetAudience": "Nursing Professionals"
+              },
+              {
+                "targetAudience": "Residents"
+              },
+              {
+                "targetAudience": "Other Mental Health, Primary Care and Pediatric Clinicians"
+              }
+            ]
+          }
+        }
+      ],
+      "cmeinfocontent": [
+        {
+          "key": "CMEInfoJSON",
+          "value": {
+            "releaseDate": "Release Date: Dec 29, 2017",
+            "expirationDate": "Expiration Date: Dec 29, 2020",
+            "reviewDate": "",
+            "availableCreditTypes": [
+              {
+                "credits": "1.00",
+                "creditType": "<p>Other Professions (self-claim)<\/p>",
+                "accreditationStatment": "<p>Other Providers can claim a Participation Certificate upon successful completion of this course.<\/p>",
+                "designationStatment": "<p>Participation Certificates will specify the title, location, type of activity, date of activity, and number of AMA PRA Category 1 Credits<sup>TM<\/sup> associated with the activity. Providers should check with their regulatory agencies to determine ways in which AMA PRA Category 1 Credits<sup>TM<\/sup> may or may not fulfill continuing education requirements. Providers should also consider saving copies of brochures, agenda, and other supporting documents.<\/p><p>We recommend physician assistants and nurse practitioners select this certificate.<\/p>"
+              },
+              {
+                "credits": "1.00",
+                "creditType": "<p><em>AMA PRA Category 1 Credit<\/em><sup>TM<\/sup><\/p>",
+                "accreditationStatment": "<p>This activity has been planned and implemented in accordance with the accreditation requirements and policies of the Accreditation Council for Continuing Medical Education (ACCME) through the joint providership of McLean Hospital and Massachusetts General Hospital. McLean Hospital is accredited by the ACCME to provide continuing medical education for physicians.<\/p>",
+                "designationStatment": "<p>McLean Hospital designates this enduring material for a maximum of 1.00 <em>AMA PRA Category 1 Credits<\/em><sup>TM<\/sup>. Physicians should only claim credit commensurate with the extent of their participation in the activity.<\/p>"
+              }
+            ]
+          }
+        }
+      ],
+      "tags": [
+        {
+          "typeid": "2",
+          "type": "WebsiteType",
+          "id": "29",
+          "name": "MGHProjectTeach",
+          "thumbnail": "https:\/\/lms.projectteachny.org\/ActivityIcons\/",
+          "parentid": "0",
+          "parentname": ""
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Anxiety in Children and Adolescents: Assessment, Diagnosis and Treatment",
+      "description": "This free one-hour webinar enhances your skills to assess, treat and manage common mental health concerns in children and youth. It is presented by Project TEACH, a project funded by the New York State Office of Mental Health.\u00a0 This webinar addresses the topic of Anxiety",
+      "startDate": "2017-12-29T12:00:00-05:00",
+      "endDate": "2020-12-29T12:00:00-05:00",
+      "ExpirationDate": "2020-12-29T11:59:59-05:00",
+      "CustomActivityType": "Webinar",
+      "FunctionalActivityType": "WEBINAR",
+      "url": "https:\/\/lms.projectteachny.org\/Users\/producthomepage.aspx?ProductID=43",
+      "thumbnail": "https:\/\/lms.projectteachny.org\/ActivityIcons\/0_anxiety_sfw_180x135.jpg",
+      "facultylists": [
+        {
+          "activityid": 43,
+          "name": "Greenberg, Erica, L, MD",
+          "role": "Presenter",
+          "SpeakerID": 6,
+          "url": "https:\/\/lms.projectteachny.org\/users\/speaker.aspx?SpeakerID=6"
+        }
+      ],
+      "overviewcontent": [
+        {
+          "key": "LearningObjectivesJSON",
+          "value": {
+            "intro": "At the end of this activity, participants should be able to:",
+            "learningObjectives": [
+              {
+                "learningObjective": "Describe the array of anxiety disorders in children and adolescents"
+              },
+              {
+                "learningObjective": "Identify the gold-standard behavioral and pharmacological treatments for children\/adolescents with anxiety"
+              },
+              {
+                "learningObjective": "Recognize the signs and symptoms of anxiety in children\/adolescents and how those may differ from that in adults"
+              }
+            ]
+          }
+        },
+        {
+          "key": "TargetAudienceJSON",
+          "value": {
+            "intro": "This program is intended for:",
+            "targetAudiences": [
+              {
+                "targetAudience": "Psychiatrists"
+              },
+              {
+                "targetAudience": "Primary Care and Family Practice Physicians"
+              },
+              {
+                "targetAudience": "Pediatricians"
+              },
+              {
+                "targetAudience": "Nursing Professionals"
+              },
+              {
+                "targetAudience": "Residents"
+              },
+              {
+                "targetAudience": "Other Mental Health, Primary Care and Pediatric Clinicians"
+              }
+            ]
+          }
+        }
+      ],
+      "cmeinfocontent": [
+        {
+          "key": "CMEInfoJSON",
+          "value": {
+            "releaseDate": "Release Date: Dec 29, 2017",
+            "expirationDate": "Expiration Date: Dec 29, 2020",
+            "reviewDate": "",
+            "availableCreditTypes": [
+              {
+                "credits": "1.00",
+                "creditType": "<p>Other Professions (self-claim)<\/p>",
+                "accreditationStatment": "<p>Other Providers can claim a Participation Certificate upon successful completion of this course.<\/p>",
+                "designationStatment": "<p>Participation Certificates will specify the title, location, type of activity, date of activity, and number of AMA PRA Category 1 Credits<sup>TM<\/sup> associated with the activity. Providers should check with their regulatory agencies to determine ways in which AMA PRA Category 1 Credits<sup>TM<\/sup> may or may not fulfill continuing education requirements. Providers should also consider saving copies of brochures, agenda, and other supporting documents.<\/p><p>We recommend physician assistants and nurse practitioners select this certificate.<\/p>"
+              },
+              {
+                "credits": "1.00",
+                "creditType": "<p><em>AMA PRA Category 1 Credit<\/em><sup>TM<\/sup><\/p>",
+                "accreditationStatment": "<p>This activity has been planned and implemented in accordance with the accreditation requirements and policies of the Accreditation Council for Continuing Medical Education (ACCME) through the joint providership of McLean Hospital and Massachusetts General Hospital. McLean Hospital is accredited by the ACCME to provide continuing medical education for physicians.<\/p>",
+                "designationStatment": "<p>McLean Hospital designates this enduring material for a maximum of 1.00 <em>AMA PRA Category 1 Credits<\/em><sup>TM<\/sup>. Physicians should only claim credit commensurate with the extent of their participation in the activity.<\/p>"
+              }
+            ]
+          }
+        }
+      ],
+      "tags": [
+        {
+          "typeid": "2",
+          "type": "WebsiteType",
+          "id": "29",
+          "name": "MGHProjectTeach",
+          "thumbnail": "https:\/\/lms.projectteachny.org\/ActivityIcons\/",
+          "parentid": "0",
+          "parentname": ""
+        },
+        {
+          "typeid": "10",
+          "type": "Daignosis",
+          "id": "80",
+          "name": "Anxiety",
+          "thumbnail": "",
+          "parentid": "0",
+          "parentname": ""
+        }
+      ]
+    }
+  ]
+}

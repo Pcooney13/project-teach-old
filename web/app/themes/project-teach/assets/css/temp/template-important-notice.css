@@ -1,0 +1,105 @@
+#banner-wrapper {
+    transition: all .5s;
+    /* height:80px; */
+    transition-timing-function: ease-out;
+    overflow: hidden;
+    font-family: 'museo-sans'
+}
+
+#banner-wrapper p {
+    font-family: "museo-sans", sans-serif;
+}
+
+.important-banner {
+    background-color: #eb6a4c;
+    z-index:9999;
+    position:relative;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+}
+
+.important-banner .date {
+    margin-left: 15px;
+}
+
+.warning-svg {
+    width: 21px;
+    fill: white;
+}
+
+.important-banner p {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0 !important;
+    color: white;
+    line-height: 1.75;
+}
+
+.divider {
+    width: 1px;
+    height: 40px;
+    background-color: white;
+    margin: 0 20px;
+}
+
+#close-svg {
+    width: 24px;
+    transition: all .5s;
+}
+
+#close-svg polygon {
+    fill: white;
+}
+
+#close-button:hover #close-svg {
+    transform: scale(1.5);
+}
+
+#close-button {
+    margin-left: auto;
+    color: white;
+    background: none;
+    border: none;
+    line-height: .5;
+    margin: -20px;
+    padding: 20px;
+    margin-left: auto;
+}
+
+.important-text {}
+
+.important-text h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.important-text a {
+    /* font-size:18px; */
+    color: white;
+    text-decoration: underline;
+}
+
+@media (max-width:550px) {
+
+    #banner-wrapper .date,
+    #banner-wrapper .divider,
+    #banner-wrapper .warning-svg {
+        display: none;
+    }
+
+    .important-banner {
+        position: relative;
+        height: 100%;
+    }
+
+    #banner-wrapper {
+        height: unset;
+        /* height:100%; */
+        display: block;
+    }
+}
