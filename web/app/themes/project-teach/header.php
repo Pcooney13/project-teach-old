@@ -124,7 +124,7 @@
                     </svg>
                 </button>
                 <!-- LOGO -->
-                <a class="logo__wrapper" href="<?php echo get_link_by_slug("home"); ?>">
+                <a class="logo__wrapper" href="/">
                     <?php get_template_part('templates/header/svg', 'logo');?>
                 </a>
                 <!-- HAMBURGER -->

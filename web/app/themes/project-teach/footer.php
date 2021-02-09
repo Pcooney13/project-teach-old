@@ -96,10 +96,10 @@
             <div class="col-sm-12 legals-bottom">
                 <span class="copyright"><strong>Project Teach</strong> Copyright &copy; <?php echo date("Y"); ?>. All Rights Reserved.</span>
                 <ul style="display:inline-block;" class="disclaimer-links">
-                    <li><a href="<?php echo get_link_by_slug("accessibility"); ?>" title="ACCESSIBILITY">ACCESSIBILITY</a></li>
-                    <li><a href="<?php echo get_link_by_slug("disclaimer"); ?>" title="DISCLAIMER">DISCLAIMER</a></li>
-                    <li><a href="<?php echo get_link_by_slug("privacy-policy"); ?>" title="PRIVACY">PRIVACY</a></li>
-                    <li><a href="<?php echo get_link_by_slug("site-map"); ?>" title="SITE MAP">SITE MAP</a></li>
+                    <li><a href="/accessibility"); ?>" title="ACCESSIBILITY">ACCESSIBILITY</a></li>
+                    <li><a href="/disclaimer"); ?>" title="DISCLAIMER">DISCLAIMER</a></li>
+                    <li><a href="/privacy-policy"); ?>" title="PRIVACY">PRIVACY</a></li>
+                    <li><a href="/site-map"); ?>" title="SITE MAP">SITE MAP</a></li>
                 </ul>
             <div>
         </div>

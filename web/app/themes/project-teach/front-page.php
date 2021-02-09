@@ -1,4 +1,4 @@
-<?php require_once('header.php'); ?>
+<?php get_header(); ?>
 
     <div class="better_health-block">
         <div class="banner" style="background-image:url(https://projectteachny.org/wp-content/uploads/2017/09/better-health-bg.jpg);">
@@ -171,4 +171,4 @@
                 </div>
             </div>
         </div>
-<?php require_once('footer.php'); ?>
+<?php get_footer(); ?>

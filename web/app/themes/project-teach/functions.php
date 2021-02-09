@@ -361,16 +361,16 @@ function active($current_page)
             return $att_url;
         }
 
-        function get_link_by_slug($slug, $type = 'page')
-        {
-            $post = get_page_by_path($slug, OBJECT, $type);
-            //PC::debug("get_link_by_slug: " . print_r($post,1));
-            $link = is_object($post) ? get_permalink($post->ID) : '';
-            if (!is_object($post)) {
-                PC::debug("get_link_by_slug:Error - slug=$slug, type=$type");
-            }
-            return $link;
-        }
+        // function get_link_by_slug($slug, $type = 'page')
+        // {
+        //     $post = get_page_by_path($slug, OBJECT, $type);
+        //     //PC::debug("get_link_by_slug: " . print_r($post,1));
+        //     $link = is_object($post) ? get_permalink($post->ID) : '';
+        //     if (!is_object($post)) {
+        //         PC::debug("get_link_by_slug:Error - slug=$slug, type=$type");
+        //     }
+        //     return $link;
+        // }
 
         function permalink_thingy($atts)
         {
